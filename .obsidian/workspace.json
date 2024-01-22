@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/高性能MySQL（第4版）.md",
+                "file": "经济理财/统计数据会说谎.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/高性能MySQL（第4版）.md",
+                "file": "经济理财/统计数据会说谎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/高性能MySQL（第4版）.md",
+                "file": "经济理财/统计数据会说谎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/高性能MySQL（第4版）.md"
+                "file": "经济理财/统计数据会说谎.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "0dd0b5fdf2154f15",
   "lastOpenFiles": [
+    "火的精神分析.md",
+    "计算机/高性能MySQL（第4版）.md",
     "文学/星期六晚我们去散步吧.md",
     "艺术/摄影入门：教你轻松拍大片.md",
     "心理/好好谈恋爱：让他爱上你的15个秘诀.md",
@@ -199,7 +201,6 @@
     "艺术/色彩.md",
     "艺术",
     "文学/瓦尔登湖.md",
-    "计算机/高性能MySQL（第4版）.md",
     "心理/乌合之众.md",
     "心理",
     "精品小说/第七天.md",
@@ -211,7 +212,6 @@
     "经济理财/统计数据会说谎.md",
     "经济理财",
     "读书笔记/文学/星期六晚我们去散步吧.md",
-    "读书笔记/艺术/摄影入门：教你轻松拍大片.md",
     "读书笔记/个人成长",
     "读书笔记/社会文化",
     "读书笔记/img/TCP-IP协议及其应用-3.png",
