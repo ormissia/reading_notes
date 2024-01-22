@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "e932e64d8a8216e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a5b55ee914ca780",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dd0b5fdf2154f15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/高性能MySQL（第4版）.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0955319f5bb47fc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "42502095ef2b14f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43ea019d2fcd52cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "730cfc7770c48eb0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b2e27b72bf31531",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "791c034947a584db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 234.5
+  },
+  "right": {
+    "id": "aa4a33f3ffea8aa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "23f8c1cc260033c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72a4375cb31752de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计算机/高性能MySQL（第4版）.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d214747e7bd61b0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计算机/高性能MySQL（第4版）.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70ca32f9a280aeb6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9ee6d782a69498b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "计算机/高性能MySQL（第4版）.md"
+              }
+            }
+          },
+          {
+            "id": "f60cc44b9d002980",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0c4dcd74c749ba5c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "canvas:新建白板": true,
+      "switcher:打开快速切换": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "publish:发布更改": true,
+      "obsidian-full-calendar:Open Full Calendar": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-weread-plugin:同步微信读书笔记": false
+    }
+  },
+  "active": "0dd0b5fdf2154f15",
+  "lastOpenFiles": [
+    "文学/星期六晚我们去散步吧.md",
+    "艺术/摄影入门：教你轻松拍大片.md",
+    "心理/好好谈恋爱：让他爱上你的15个秘诀.md",
+    "文学/香水（同名电影原著）.md",
+    "个人成长/总会过去 总会到来.md",
+    "个人成长",
+    "文学/霍乱时期的爱情.md",
+    "计算机/商业化推荐系统服务应用实战（机械工业出版社“十四五”硬核产品）.md",
+    "艺术/摄影与心理学.md",
+    "精品小说/暗恋这件难过的小事.md",
+    "社会文化/爱欲之死.md",
+    "社会文化",
+    "文学/独角兽项目：数字化转型时代的开发传奇.md",
+    "计算机/TCP-IP协议及其应用.md",
+    "计算机/编程之美.md",
+    "计算机/Wireshark网络分析从入门到实践.md",
+    "计算机/自己动手写Docker.md",
+    "计算机/混沌工程：通过可控故障实验提升软件系统可靠性.md",
+    "艺术/色彩.md",
+    "艺术",
+    "文学/瓦尔登湖.md",
+    "计算机/高性能MySQL（第4版）.md",
+    "心理/乌合之众.md",
+    "心理",
+    "精品小说/第七天.md",
+    "精品小说",
+    "计算机/云原生服务网格Istio：原理、实践、架构与源码解析.md",
+    "计算机",
+    "文学/生死疲劳.md",
+    "文学",
+    "经济理财/统计数据会说谎.md",
+    "经济理财",
+    "读书笔记/文学/星期六晚我们去散步吧.md",
+    "读书笔记/艺术/摄影入门：教你轻松拍大片.md",
+    "读书笔记/个人成长",
+    "读书笔记/社会文化",
+    "读书笔记/img/TCP-IP协议及其应用-3.png",
+    "读书笔记/img/TCP-IP协议及其应用-2.png",
+    "读书笔记/img/TCP-IP协议及其应用-1.png",
+    "总览.canvas",
+    "计算机/算法/算法体系.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Day Planners/面试/面试要点.canvas",
+    "计算机/计算机网络/未命名.canvas"
+  ]
+}

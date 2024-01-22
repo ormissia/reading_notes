@@ -1,0 +1,14 @@
+{
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "livePreview": true,
+  "defaultViewMode": "source",
+  "useMarkdownLinks": true,
+  "showInlineTitle": false,
+  "promptDelete": false
+}
