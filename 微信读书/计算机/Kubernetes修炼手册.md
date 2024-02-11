@@ -18,7 +18,7 @@ lastReadDate: 2024-02-11
 # Kubernetes修炼手册
 
 
-#计算机 #计算机综合
+#读书笔记 #计算机 #计算机综合
 
 # 元数据
 > [!abstract] Kubernetes修炼手册
