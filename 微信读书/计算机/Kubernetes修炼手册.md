@@ -6,7 +6,7 @@ cover: https://cdn.weread.qq.com/weread/cover/5/YueWen_38153670/t7_YueWen_381536
 reviewCount: 1
 noteCount: 59
 readingStatus: 在读
-progress: 54%
+progress: 78%
 totalReadDay: 1
 readingTime: 1小时26分钟
 readingDate: 2024-02-11
