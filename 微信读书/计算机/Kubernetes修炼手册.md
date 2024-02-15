@@ -10,9 +10,9 @@ progress: 100%
 totalReadDay: 2
 readingTime: 1小时37分钟
 readingDate: 2024-02-11
+finishedDate: 2024-02-14
 isbn: 9787115561091
 lastReadDate: 2024-02-14
-finishedDate: 2024-02-14
 
 ---
 

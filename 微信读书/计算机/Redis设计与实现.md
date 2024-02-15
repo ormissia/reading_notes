@@ -5,10 +5,10 @@ author: 黄健宏
 cover: https://cdn.weread.qq.com/weread/cover/54/YueWen_622000/t7_YueWen_622000.jpg
 reviewCount: 0
 noteCount: 1
-readingStatus: 未标记
-progress: undefined%
+readingStatus: 在读
+progress: 3%
 totalReadDay: 1
-readingTime: 0小时2分钟
+readingTime: 0小时6分钟
 readingDate: 2024-01-19
 isbn: 9787111464747
 lastReadDate: 2024-02-15
