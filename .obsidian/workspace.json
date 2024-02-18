@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微信读书/计算机/编程之美.md",
-                "mode": "source",
+                "file": "微信读书/计算机/Redis设计与实现.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微信读书/计算机/编程之美.md",
+                "file": "微信读书/计算机/Redis设计与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "微信读书/计算机/编程之美.md",
+                "file": "微信读书/计算机/Redis设计与实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "微信读书/计算机/编程之美.md"
+                "file": "微信读书/计算机/Redis设计与实现.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -172,12 +172,12 @@
       "templates:插入模板": true,
       "publish:发布更改": true,
       "obsidian-full-calendar:Open Full Calendar": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
   "active": "4c6df4e46826c567",
   "lastOpenFiles": [
+    "README.md",
     "微信读书/文学/星期六晚我们去散步吧.md",
     "微信读书/艺术/摄影入门：教你轻松拍大片.md",
     "微信读书/心理/好好谈恋爱：让他爱上你的15个秘诀.md",
@@ -196,7 +196,6 @@
     "微信读书/艺术/色彩.md",
     "微信读书/文学/瓦尔登湖.md",
     "微信读书/计算机/高性能MySQL（第4版）.md",
-    "微信读书/心理/乌合之众.md",
     "微信读书/计算机/云原生服务网格Istio：原理、实践、架构与源码解析.md",
     "微信读书/文学/追风筝的人.md",
     "微信读书/文学/独角兽项目：数字化转型时代的开发传奇.md",
@@ -211,9 +210,9 @@
     "微信读书/精品小说",
     "微信读书/科学技术",
     "微信读书/艺术",
-    "微信读书/心理",
     "微信读书/文学",
     "微信读书/计算机",
+    "微信读书/心理",
     "读书笔记/img/TCP-IP协议及其应用-3.png",
     "读书笔记/img/TCP-IP协议及其应用-2.png",
     "读书笔记/img/TCP-IP协议及其应用-1.png",
