@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "69fc23cd0c6f2847",
+        "id": "0b2883ed81b505f1",
         "type": "tabs",
         "children": [
           {
-            "id": "4c6df4e46826c567",
+            "id": "d62575fab8f1f032",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信读书/计算机/Redis设计与实现.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微信读书/计算机/Redis设计与实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "微信读书/计算机/Redis设计与实现.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "微信读书/计算机/Redis设计与实现.md"
-              }
+              "state": {}
             }
           },
           {
@@ -171,12 +162,24 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "publish:发布更改": true,
-      "obsidian-full-calendar:Open Full Calendar": true,
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "4c6df4e46826c567",
+  "active": "43ea019d2fcd52cf",
   "lastOpenFiles": [
+    "微信读书/计算机/商业化推荐系统服务应用实战（机械工业出版社“十四五”硬核产品）.md",
+    "微信读书/计算机/TCP-IP协议及其应用.md",
+    "微信读书/计算机/编程之美.md",
+    "微信读书/计算机/Wireshark网络分析从入门到实践.md",
+    "微信读书/计算机/自己动手写Docker.md",
+    "微信读书/计算机/混沌工程：通过可控故障实验提升软件系统可靠性.md",
+    "微信读书/计算机/高性能MySQL（第4版）.md",
+    "微信读书/计算机/云原生服务网格Istio：原理、实践、架构与源码解析.md",
+    "微信读书/计算机/图解数码相机原理和结构.md",
+    "微信读书/计算机/Kubernetes修炼手册.md",
+    "微信读书/计算机/Redis设计与实现.md",
+    "微信读书/计算机",
+    "微信读书/文学/生死疲劳.md",
     "README.md",
     "微信读书/文学/星期六晚我们去散步吧.md",
     "微信读书/艺术/摄影入门：教你轻松拍大片.md",
@@ -184,34 +187,21 @@
     "微信读书/文学/香水（同名电影原著）.md",
     "微信读书/个人成长/总会过去 总会到来.md",
     "微信读书/个人成长",
-    "微信读书/计算机/商业化推荐系统服务应用实战（机械工业出版社“十四五”硬核产品）.md",
     "微信读书/艺术/摄影与心理学.md",
     "微信读书/社会文化/爱欲之死.md",
     "微信读书/社会文化",
-    "微信读书/计算机/TCP-IP协议及其应用.md",
-    "微信读书/计算机/编程之美.md",
-    "微信读书/计算机/Wireshark网络分析从入门到实践.md",
-    "微信读书/计算机/自己动手写Docker.md",
-    "微信读书/计算机/混沌工程：通过可控故障实验提升软件系统可靠性.md",
     "微信读书/艺术/色彩.md",
     "微信读书/文学/瓦尔登湖.md",
-    "微信读书/计算机/高性能MySQL（第4版）.md",
-    "微信读书/计算机/云原生服务网格Istio：原理、实践、架构与源码解析.md",
     "微信读书/文学/追风筝的人.md",
     "微信读书/文学/独角兽项目：数字化转型时代的开发传奇.md",
     "微信读书/精品小说/第七天.md",
     "微信读书/文学/漂泊的灵魂（黑塞作品06）.md",
-    "微信读书/文学/霍乱时期的爱情.md",
-    "微信读书/经济理财/统计数据会说谎.md",
     "微信读书/经济理财",
-    "微信读书/文学/生死疲劳.md",
-    "微信读书/哲学宗教/《金刚经》说什么.md",
     "微信读书/哲学宗教",
     "微信读书/精品小说",
     "微信读书/科学技术",
     "微信读书/艺术",
     "微信读书/文学",
-    "微信读书/计算机",
     "微信读书/心理",
     "读书笔记/img/TCP-IP协议及其应用-3.png",
     "读书笔记/img/TCP-IP协议及其应用-2.png",

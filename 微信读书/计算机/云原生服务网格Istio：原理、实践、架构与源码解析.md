@@ -6,9 +6,9 @@ cover: https://cdn.weread.qq.com/weread/cover/74/cpplatform_89br3rqhwrf9z4leqcjn
 reviewCount: 0
 noteCount: 35
 readingStatus: 在读
-progress: 13%
-totalReadDay: 3
-readingTime: 4小时31分钟
+progress: 36%
+totalReadDay: 5
+readingTime: 4小时47分钟
 readingDate: 2024-01-16
 isbn: 9787121366536
 lastReadDate: 2024-01-19
