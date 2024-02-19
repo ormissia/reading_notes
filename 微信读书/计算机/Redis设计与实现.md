@@ -3,13 +3,14 @@ doc_type: weread-highlights-reviews
 bookId: "622000"
 author: 黄健宏
 cover: https://cdn.weread.qq.com/weread/cover/54/YueWen_622000/t7_YueWen_622000.jpg
-reviewCount: 2
-noteCount: 84
-readingStatus: 在读
-progress: 85%
+reviewCount: 3
+noteCount: 87
+readingStatus: 读完
+progress: 100%
 totalReadDay: 4
-readingTime: 3小时29分钟
+readingTime: 4小时52分钟
 readingDate: 2024-01-19
+finishedDate: 2024-02-19
 isbn: 9787111464747
 lastReadDate: 2024-02-19
 
@@ -419,6 +420,21 @@ length属性记录了整数集合包含的元素数量，也即是contents数组
 > 📌 升序排序和降序排序都由相同的快速排序算法执行  
 > ⏱ 2024-02-19 10:47:01 ^622000-154-1086-1108
 
+#### 21.9 多个选项的执行顺序
+
+> 📌 调用SORT命令时，除了GET选项之外，改变选项的摆放顺序并不会影响SORT命令执行这些选项的顺序。  
+> ⏱ 2024-02-19 11:55:01 ^622000-160-1837-1887
+
+### 第23章 慢查询日志
+
+> 📌 使用SLOWLOG GET命令查看服务器所保存的慢查询日志  
+> ⏱ 2024-02-19 17:29:06 ^622000-170-1531-1560
+
+#### 24.3 重点回顾
+
+> 📌 客户端可以通过执行MONITOR命令，将客户端转换成监视器，接收并打印服务器处理的每个命令请求的相关信息。  
+> ⏱ 2024-02-19 17:33:21 ^622000-178-421-474
+
 
 
 # 读书笔记
@@ -446,3 +462,7 @@ length属性记录了整数集合包含的元素数量，也即是contents数组
 
 # 本书评论
 
+
+## 书评 No.1 
+虽然示例Redis版本比较老，但是也讲出了Redis的精髓 ^439222474-7P6cgUjX4
+⏱ 2024-02-19 17:32:09

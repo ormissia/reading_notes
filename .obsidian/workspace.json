@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0b2883ed81b505f1",
+        "id": "d679fe9c6fa2b77e",
         "type": "tabs",
         "children": [
           {
-            "id": "d62575fab8f1f032",
+            "id": "79efccc66c834ad7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,10 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "43ea019d2fcd52cf",
+  "active": "79efccc66c834ad7",
   "lastOpenFiles": [
+    "微信读书/计算机/Redis设计与实现.md",
+    "微信读书/文学/生死疲劳.md",
     "微信读书/计算机/商业化推荐系统服务应用实战（机械工业出版社“十四五”硬核产品）.md",
     "微信读书/计算机/TCP-IP协议及其应用.md",
     "微信读书/计算机/编程之美.md",
@@ -177,9 +179,7 @@
     "微信读书/计算机/云原生服务网格Istio：原理、实践、架构与源码解析.md",
     "微信读书/计算机/图解数码相机原理和结构.md",
     "微信读书/计算机/Kubernetes修炼手册.md",
-    "微信读书/计算机/Redis设计与实现.md",
     "微信读书/计算机",
-    "微信读书/文学/生死疲劳.md",
     "README.md",
     "微信读书/文学/星期六晚我们去散步吧.md",
     "微信读书/艺术/摄影入门：教你轻松拍大片.md",
