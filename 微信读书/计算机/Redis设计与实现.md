@@ -8,7 +8,7 @@ noteCount: 87
 readingStatus: 读完
 progress: 100%
 totalReadDay: 4
-readingTime: 4小时52分钟
+readingTime: 4小时53分钟
 readingDate: 2024-01-19
 finishedDate: 2024-02-19
 isbn: 9787111464747
