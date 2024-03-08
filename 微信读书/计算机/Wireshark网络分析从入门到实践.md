@@ -5,11 +5,12 @@ author: 李华峰 陈虹
 cover: https://cdn.weread.qq.com/weread/cover/51/YueWen_25916509/t7_YueWen_25916509.jpg
 reviewCount: 0
 noteCount: 5
-readingStatus: 在读
-progress: 73%
-totalReadDay: 3
-readingTime: 1小时48分钟
+readingStatus: 读完
+progress: 88%
+totalReadDay: 4
+readingTime: 1小时51分钟
 readingDate: 2024-01-14
+finishedDate: 2024-03-07
 isbn: 9787115505224
 lastReadDate: 2024-03-04
 

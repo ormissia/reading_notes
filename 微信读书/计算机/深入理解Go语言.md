@@ -8,11 +8,11 @@ noteCount: 6
 readingStatus: 读完
 progress: 100%
 totalReadDay: 2
-readingTime: 1小时39分钟
+readingTime: 1小时47分钟
 readingDate: 2024-02-21
+finishedDate: 2024-03-01
 isbn: 9787302613664
 lastReadDate: 2024-03-01
-finishedDate: 2024-03-01
 
 ---
 

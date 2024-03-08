@@ -10,9 +10,9 @@ progress: 100%
 totalReadDay: 7
 readingTime: 10小时32分钟
 readingDate: 2024-02-20
+finishedDate: 2024-02-29
 isbn: 9787121373398
 lastReadDate: 2024-02-29
-finishedDate: 2024-02-29
 
 ---
 
