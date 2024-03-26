@@ -6,9 +6,9 @@ cover: https://wfqqreader-1252317822.image.myqcloud.com/cover/216/729216/t7_7292
 reviewCount: 0
 noteCount: 2
 readingStatus: 在读
-progress: 28%
-totalReadDay: 1
-readingTime: 1小时0分钟
+progress: 40%
+totalReadDay: 2
+readingTime: 3小时38分钟
 readingDate: 2024-03-20
 isbn: 9787115366610
 lastReadDate: 2024-03-21
