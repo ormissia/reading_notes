@@ -10,9 +10,9 @@ progress: 89%
 totalReadDay: 5
 readingTime: 6小时53分钟
 readingDate: 2024-03-20
+finishedDate: 2024-04-15
 isbn: 9787115366610
 lastReadDate: 2024-04-15
-finishedDate: 2024-04-15
 
 ---
 
