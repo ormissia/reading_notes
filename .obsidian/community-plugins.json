@@ -1,5 +1,7 @@
 [
   "floating-toc",
   "obsidian-git",
-  "obsidian-weread-plugin"
+  "obsidian-weread-plugin",
+  "dataview",
+  "obsidian-minimal-settings"
 ]
