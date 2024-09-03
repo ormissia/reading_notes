@@ -14,7 +14,11 @@ finishedDate: 2024-04-15
 isbn: 9787115366610
 category: 计算机 计算机综合
 title: Wireshark网络分析就这么简单
+rating: 87.6%
+readProgress: 100
+lastReadTimestamp: 1713110400
 tags: 读书笔记 计算机 计算机综合 读完
+totalWords: 89611
 
 ---
 

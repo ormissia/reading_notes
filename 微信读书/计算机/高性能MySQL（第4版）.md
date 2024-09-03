@@ -14,7 +14,11 @@ finishedDate: 2024-09-02
 isbn: 9787121442575
 category: 计算机 数据库
 title: 高性能MySQL（第4版）
+rating: 74.5%
+readProgress: 100
+lastReadTimestamp: 1705507200
 tags: 读书笔记 计算机 数据库 读完
+totalWords: 245520
 
 ---
 

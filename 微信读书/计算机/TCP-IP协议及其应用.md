@@ -14,7 +14,11 @@ finishedDate: 2024-01-16
 isbn: 9787115325228
 category: 计算机 计算机综合
 title: TCP-IP协议及其应用
+rating: 69.3%
+readProgress: 100
+lastReadTimestamp: 1705334400
 tags: 读书笔记 计算机 计算机综合 读完
+totalWords: 330693
 
 ---
 

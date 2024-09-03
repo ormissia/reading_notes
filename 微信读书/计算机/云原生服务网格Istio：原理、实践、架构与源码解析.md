@@ -13,7 +13,11 @@ readingDate: 2024-01-16
 isbn: 9787121366536
 category: 计算机 理论知识
 title: 云原生服务网格Istio：原理、实践、架构与源码解析
+rating: 0%
+readProgress: 36
+lastReadTimestamp: 1708272000
 tags: 读书笔记 计算机 理论知识 在读
+totalWords: 273677
 
 ---
 

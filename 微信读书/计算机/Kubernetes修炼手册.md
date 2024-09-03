@@ -14,7 +14,11 @@ finishedDate: 2024-02-14
 isbn: 9787115561091
 category: 计算机 计算机综合
 title: Kubernetes修炼手册
+rating: 74%
+readProgress: 100
+lastReadTimestamp: 1707840000
 tags: 读书笔记 计算机 计算机综合 读完
+totalWords: 153396
 
 ---
 
