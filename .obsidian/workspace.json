@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c687ab3df1befd84",
+        "id": "2b4f2f73b4de98c8",
         "type": "tabs",
         "children": [
           {
-            "id": "59ac596063af732d",
+            "id": "97c7de7d8b77fb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "阅读看板.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1582dd7f4ac38be1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信读书/哲学宗教/西西弗神话.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -91,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "aa4a33f3ffea8aa8",
@@ -189,12 +175,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59ac596063af732d",
+  "active": "97c7de7d8b77fb1f",
   "lastOpenFiles": [
-    "微信读书/哲学宗教/西西弗神话.md",
-    "阅读看板.md",
     "阅读看板 1.md",
-    "微信读书/哲学宗教/好的爱情.md",
+    "阅读看板.md",
     "微信读书/文学/星期六晚我们去散步吧.md",
     "微信读书/心理/好好谈恋爱：让他爱上你的15个秘诀.md",
     "微信读书/文学/香水（同名电影原著）.md",
@@ -218,6 +202,8 @@
     "微信读书/计算机/图解数码相机原理和结构.md",
     "微信读书/艺术/商业摄影（第三版）.md",
     "微信读书/科学技术/控制论.md",
+    "微信读书/文学/悉达多（果麦经典）.md",
+    "微信读书/计算机/Kubernetes修炼手册.md",
     "微信读书/政治军事",
     "微信读书/科学技术",
     "微信读书/经济理财",
