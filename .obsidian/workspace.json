@@ -6,18 +6,14 @@
       {
         "id": "fe5d6a0986f2fac1",
         "type": "tabs",
+        "dimension": 31.838365896980463,
         "children": [
           {
             "id": "49959ca6599dded9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信读书/计算机/高性能MySQL（第4版）.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,35 +21,22 @@
       {
         "id": "cfe230d20ba4e504",
         "type": "tabs",
+        "dimension": 68.16163410301954,
         "children": [
-          {
-            "id": "69d3394784b2e820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微信读书/计算机/高性能MySQL（第4版）.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "7dd0f6fc0944ffe3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "阅读趋势看板.md",
+                "file": "阅读看板.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微信读书/计算机/高性能MySQL（第4版）.md",
+                "file": "阅读看板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "微信读书/计算机/高性能MySQL（第4版）.md",
+                "file": "阅读看板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "微信读书/计算机/高性能MySQL（第4版）.md"
+                "file": "阅读看板.md"
               }
             }
           },
@@ -208,13 +191,9 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "69d3394784b2e820",
+  "active": "7dd0f6fc0944ffe3",
   "lastOpenFiles": [
-    "微信读书/计算机/深入理解Go语言.md",
-    "阅读趋势看板.md",
-    "微信读书/计算机/高性能MySQL（第4版）.md",
-    "阅读看板.md",
-    "微信读书/计算机/Wireshark网络分析就这么简单.md",
+    "微信读书/哲学宗教/金刚经（典藏）.md",
     "微信读书/文学/星期六晚我们去散步吧.md",
     "微信读书/心理/好好谈恋爱：让他爱上你的15个秘诀.md",
     "微信读书/文学/香水（同名电影原著）.md",
@@ -227,6 +206,7 @@
     "微信读书/计算机/编程之美.md",
     "微信读书/计算机/自己动手写Docker.md",
     "微信读书/艺术/色彩.md",
+    "微信读书/计算机/高性能MySQL（第4版）.md",
     "微信读书/计算机/云原生服务网格Istio：原理、实践、架构与源码解析.md",
     "微信读书/文学/独角兽项目：数字化转型时代的开发传奇.md",
     "微信读书/精品小说/第七天.md",
@@ -237,6 +217,9 @@
     "微信读书/计算机/图解数码相机原理和结构.md",
     "微信读书/艺术/商业摄影（第三版）.md",
     "微信读书/科学技术/控制论.md",
+    "微信读书/文学/悉达多（果麦经典）.md",
+    "微信读书/计算机/Kubernetes修炼手册.md",
+    "微信读书/文学/在轮下（读客三个圈经典文库）.md",
     "微信读书/政治军事",
     "微信读书/科学技术",
     "微信读书/经济理财",
