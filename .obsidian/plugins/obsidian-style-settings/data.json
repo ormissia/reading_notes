@@ -1,3 +1,5 @@
 {
-  "minimal-cards-style@@cards-max-width": "0.01fr"
+  "minimal-cards-style@@cards-max-width": "0.02fr",
+  "minimal-cards-style@@cards-min-width": "180px",
+  "minimal-cards-style@@cards-border-width": "1px"
 }
