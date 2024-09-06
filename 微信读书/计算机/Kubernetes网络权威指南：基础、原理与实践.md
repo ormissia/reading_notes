@@ -14,9 +14,10 @@ finishedDate: 2024-02-29
 isbn: 9787121373398
 category: 计算机 计算机综合
 title: Kubernetes网络权威指南：基础、原理与实践
-rating: 81.6%
+rating: 81.7%
 readProgress: 100
 readingTimestamp: 37961
+lastReadDate: 2024-02-29
 lastReadTimestamp: 1709197266
 tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 203519

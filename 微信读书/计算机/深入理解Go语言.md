@@ -17,6 +17,7 @@ title: 深入理解Go语言
 rating: 0%
 readProgress: 100
 readingTimestamp: 6457
+lastReadDate: 2024-03-01
 lastReadTimestamp: 1709277621
 tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 167650

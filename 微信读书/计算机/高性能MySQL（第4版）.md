@@ -6,9 +6,9 @@ noteCount: 53
 author: Silvia Botros   Jeremy Tinley
 cover: https://cdn.weread.qq.com/weread/cover/5/cpPlatform_tpeiJyaZriAkSeauDycVY8/t7_cpPlatform_tpeiJyaZriAkSeauDycVY8.jpg
 readingStatus: 读完
-progress: 90%
-totalReadDay: 17
-readingTime: 28小时16分钟
+progress: 100%
+totalReadDay: 18
+readingTime: 28小时18分钟
 readingDate: 2023-12-12
 finishedDate: 2024-09-02
 isbn: 9787121442575
@@ -16,7 +16,8 @@ category: 计算机 数据库
 title: 高性能MySQL（第4版）
 rating: 74.5%
 readProgress: 100
-readingTimestamp: 101804
+readingTimestamp: 101884
+lastReadDate: 2024-01-18
 lastReadTimestamp: 1725276794
 tags: 读书笔记 计算机 数据库 读完
 totalWords: 245520

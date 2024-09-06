@@ -17,6 +17,7 @@ title: 大模型应用开发极简入门：基于GPT-4和ChatGPT
 rating: 70%
 readProgress: 100
 readingTimestamp: 13566
+lastReadDate: 2024-03-19
 lastReadTimestamp: 1710854253
 tags: 读书笔记 科学技术 工业技术 读完
 totalWords: 108251

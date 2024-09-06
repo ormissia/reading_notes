@@ -16,6 +16,7 @@ title: 云原生服务网格Istio：原理、实践、架构与源码解析
 rating: 0%
 readProgress: 36
 readingTimestamp: 17241
+lastReadDate: 2024-01-19
 lastReadTimestamp: 1708272000
 tags: 读书笔记 计算机 理论知识 在读
 totalWords: 273677

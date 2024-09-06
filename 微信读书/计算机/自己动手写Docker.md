@@ -16,6 +16,7 @@ title: 自己动手写Docker
 rating: 79.5%
 readProgress: 15
 readingTimestamp: 340
+lastReadDate: 2024-01-16
 lastReadTimestamp: 
 tags: 读书笔记 计算机 计算机综合 在读
 totalWords: 68745

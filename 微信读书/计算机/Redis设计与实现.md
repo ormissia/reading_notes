@@ -17,6 +17,7 @@ title: Redis设计与实现
 rating: 85.7%
 readProgress: 100
 readingTimestamp: 17580
+lastReadDate: 2024-02-19
 lastReadTimestamp: 1708334852
 tags: 读书笔记 计算机 编程设计 读完
 totalWords: 289957
