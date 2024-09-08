@@ -85,11 +85,11 @@ totalWords: 153396
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 （1）获取期望状态。
 >
-（2）观察当前状态。
+>（2）观察当前状态。
 >
-（3）判断两者间的差异。
+>（3）判断两者间的差异。
 >
-（4）变更当前状态来消除差异点。
+>（4）变更当前状态来消除差异点。
 > ^15-2896-3022
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
@@ -107,9 +107,9 @@ totalWords: 153396
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 1.监听APIServer分派的新任务。
 >
-2.执行新分派的任务。
+>2.执行新分派的任务。
 >
-3.向控制平面回复任务执行的结果（通过APIServer）。
+>3.向控制平面回复任务执行的结果（通过APIServer）。
 > ^15-4984-5099
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
@@ -267,9 +267,9 @@ totalWords: 153396
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 ●运行DNS服务的控制层Pod。
 >
-●一个面向所有Pod的名为kube-dns的服务。
+>●一个面向所有Pod的名为kube-dns的服务。
 >
-●Kubelet为每一个容器都注入了该DNS（通过/etc/resolv.conf）。
+>●Kubelet为每一个容器都注入了该DNS（通过/etc/resolv.conf）。
 > ^46-8140-8322
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
@@ -312,17 +312,17 @@ totalWords: 153396
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 STRIDE定义了6种潜在威胁。
 >
-●伪装（Spoofing）。
+>●伪装（Spoofing）。
 >
-●篡改（Tampering）。
+>●篡改（Tampering）。
 >
-●抵赖（Repudiation）
+>●抵赖（Repudiation）
 >
-●信息泄露（InformationDisclosure）。
+>●信息泄露（InformationDisclosure）。
 >
-●拒绝服务（DenialofService）。
+>●拒绝服务（DenialofService）。
 >
-●提升权限（ElevationofPrivilege）。
+>●提升权限（ElevationofPrivilege）。
 > ^75-517-819
 ### 11.2 伪装
 
