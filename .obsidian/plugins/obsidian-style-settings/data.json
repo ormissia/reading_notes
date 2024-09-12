@@ -1,5 +1,7 @@
 {
   "minimal-cards-style@@cards-max-width": "0.02fr",
   "minimal-cards-style@@cards-min-width": "180px",
-  "minimal-cards-style@@cards-border-width": "1px"
+  "minimal-cards-style@@cards-border-width": "1px",
+  "floating-toc-styles@@floating-toc-remove-heading-indicator": true,
+  "floating-toc-styles@@toggle-floating-toc-header-color": true
 }
