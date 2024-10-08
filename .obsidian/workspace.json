@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c70e6a411952f00c",
+        "id": "46255592c8a9c212",
         "type": "tabs",
         "children": [
           {
-            "id": "a7bc9b5c16441c35",
+            "id": "8b635fe9ceb8101f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "aa4a33f3ffea8aa8",
@@ -175,15 +176,18 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "a7bc9b5c16441c35",
+  "active": "8b635fe9ceb8101f",
   "lastOpenFiles": [
+    "微信读书/经济理财/历代经济变革得失.md",
     "微信读书/文学/到灯塔去（伍尔夫文集）.md",
-    "微信读书/社会文化/爱欲之死.md",
+    "微信读书/文学/风沙星辰（果麦经典）.md",
     "阅读看板.md",
+    "阅读总览.md",
+    "微信读书/社会文化/失控.md",
+    "微信读书/社会文化/爱欲之死.md",
     "微信读书/社会文化/倦怠社会.md",
     "微信读书/文学/我走入宁静蔚蓝的日子.md",
     "微信读书/社会文化/他者的消失.md",
-    "阅读总览.md",
     "README.md",
     "微信读书/计算机/高性能MySQL（第4版）.md",
     "微信读书/计算机/深入理解Go语言.md",
@@ -200,9 +204,6 @@
     "微信读书/计算机/图解数码相机原理和结构.md",
     "微信读书/计算机/Kubernetes修炼手册.md",
     "微信读书/计算机/Redis设计与实现.md",
-    "微信读书/计算机/混沌工程：通过可控故障实验提升软件系统可靠性.md",
-    "微信读书/计算机/Kubernetes网络权威指南：基础、原理与实践.md",
-    "微信读书/计算机/Wireshark网络分析从入门到实践.md",
     "微信读书/计算机",
     "微信读书/个人成长",
     "微信读书/政治军事",
