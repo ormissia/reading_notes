@@ -14,7 +14,7 @@ finishedDate: 2024-03-01
 isbn: 9787302613664
 category: 计算机 计算机综合
 title: 深入理解Go语言
-rating: 81%
+rating: 86.5%
 readProgress: 100
 readingTimestamp: 6457
 lastReadDate: 2024-03-01
