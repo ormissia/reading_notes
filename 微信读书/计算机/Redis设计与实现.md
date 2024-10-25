@@ -14,7 +14,7 @@ finishedDate: 2024-02-19
 isbn: 9787111464747
 category: 计算机 编程设计
 title: Redis设计与实现
-rating: 85.6%
+rating: 85.7%
 readProgress: 100
 readingTimestamp: 17580
 lastReadDate: 2024-02-19
