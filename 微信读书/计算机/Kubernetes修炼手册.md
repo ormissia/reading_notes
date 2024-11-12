@@ -12,15 +12,16 @@ readingTime: 1小时37分钟
 readingDate: 2024-02-11
 finishedDate: 2024-02-14
 isbn: 9787115561091
-category: 计算机 计算机综合
+categorys: 计算机 计算机综合
 title: Kubernetes修炼手册
 rating: 74%
 readProgress: 100
 readingTimestamp: 5842
 lastReadDate: 2024-02-14
 lastReadTimestamp: 1707921403
-tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 153396
+tags: 读书笔记 计算机 计算机综合  读完
+category: 计算机
 
 ---
 

@@ -12,15 +12,16 @@ readingTime: 4小时53分钟
 readingDate: 2024-01-19
 finishedDate: 2024-02-19
 isbn: 9787111464747
-category: 计算机 编程设计
+categorys: 计算机 编程设计
 title: Redis设计与实现
 rating: 85.7%
 readProgress: 100
 readingTimestamp: 17580
 lastReadDate: 2024-02-19
 lastReadTimestamp: 1708334852
-tags: 读书笔记 计算机 编程设计 读完
 totalWords: 289957
+tags: 读书笔记 计算机 编程设计  读完
+category: 计算机
 
 ---
 

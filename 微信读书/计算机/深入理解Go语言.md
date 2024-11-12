@@ -2,25 +2,26 @@
 doc_type: weread-highlights-reviews
 bookId: "3300059653"
 reviewCount: 0
-noteCount: 6
+noteCount: 11
 author: 刘丹冰
 cover: https://cdn.weread.qq.com/weread/cover/77/cpplatform_nhmagh6mnyrbgfugxz55lv/t7_cpplatform_nhmagh6mnyrbgfugxz55lv1684921281.jpg
 readingStatus: 读完
 progress: 100%
-totalReadDay: 2
-readingTime: 1小时47分钟
+totalReadDay: 3
+readingTime: 3小时17分钟
 readingDate: 2024-02-21
 finishedDate: 2024-03-01
 isbn: 9787302613664
-category: 计算机 计算机综合
+categorys: 计算机 计算机综合
 title: 深入理解Go语言
-rating: 86.5%
+rating: 82%
 readProgress: 100
-readingTimestamp: 6457
-lastReadDate: 2024-03-01
+readingTimestamp: 11828
+lastReadDate: 2024-11-12
 lastReadTimestamp: 1709277621
-tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 167650
+tags: 读书笔记 计算机 计算机综合  读完
+category: 计算机
 
 ---
 
@@ -43,7 +44,20 @@ totalWords: 167650
 
 # 高亮划线
 
+### 第1章 深入理解Go语言协程调度器GPM模型
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 📌 如果将线程再进行细化，内核线程依然叫线程(Thread)，而用户线程则叫协程(Co-routine)
+> ^14-4353-4403
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 📌 在新调度器中，除了M（线程）和G（协程），又引进了P（处理器）
+> ^14-9303-9334
 ### 第3章 Go语言内存管理洗髓经
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 📌 虚拟内存地址是基于物理内存地址之上凭空而造的一个新的逻辑地址，而操作系统暴露给用户进程的只是虚拟内存地址，操作系统内部会对虚拟内存地址和真实的物理内存地址建立映射关系，来管理地址的分配，从而使物理内存的利用率提高。
+> ^16-4999-5106
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 虚拟内存的目的是解决以下几件事：
@@ -58,6 +72,10 @@ totalWords: 167650
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 虚拟内存本身是通过一个叫页表(PageTable)的东西实现的
 > ^16-7473-7505
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 📌 一个虚拟内存地址包括虚拟页号VPN(VirtualPageNumber)和虚拟页偏移量VPO(VirtualPageOffset)[插图]。
+> ^16-11279-11458
 
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 TCMalloc则是为每个Thread预分配一块缓存，每个Thread在申请内存时首先会从这个缓存区ThreadCache申请，并且所有ThreadCache缓存区还共享一个叫作CentralCache的中心缓存。
@@ -82,4 +100,9 @@ totalWords: 167650
 > [!Cite]+ <span style="color: #ffce78;">Highlight</span>
 > 📌 当遇到panic时，会遍历本协程的defer链表，并执行defer。在执行defer的过程中，如果遇到recover，则停止panic，返回recover处继续往下执行。如果没有遇到recover，则遍历完本协程的defer链表后，向stderr抛出panic信息，
 > ^22-5055-5188
+### 第10章 make和new的原理性区别
+
+> [!Cite]+ <span style="color: #ffce78;">Highlight</span>
+> 📌 值引用的特点是只读
+> ^24-3893-3902
 

@@ -12,15 +12,16 @@ readingTime: 1小时51分钟
 readingDate: 2024-01-14
 finishedDate: 2024-03-07
 isbn: 9787115505224
-category: 计算机 理论知识
+categorys: 计算机 理论知识
 title: Wireshark网络分析从入门到实践
 rating: 76.1%
 readProgress: 100
 readingTimestamp: 6674
 lastReadDate: 2024-03-04
 lastReadTimestamp: 1709822236
-tags: 读书笔记 计算机 理论知识 读完
 totalWords: 138756
+tags: 读书笔记 计算机 理论知识  读完
+category: 计算机
 
 ---
 

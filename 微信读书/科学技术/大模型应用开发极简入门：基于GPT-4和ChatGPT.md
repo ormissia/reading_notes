@@ -12,15 +12,16 @@ readingTime: 3小时46分钟
 readingDate: 2024-03-10
 finishedDate: 2024-03-19
 isbn: 9787115636409
-category: 科学技术 工业技术
+categorys: 科学技术 工业技术
 title: 大模型应用开发极简入门：基于GPT-4和ChatGPT
-rating: 70.2%
+rating: 70.9%
 readProgress: 100
 readingTimestamp: 13566
 lastReadDate: 2024-03-19
 lastReadTimestamp: 1710854253
-tags: 读书笔记 科学技术 工业技术 读完
 totalWords: 108251
+tags: 读书笔记 科学技术 工业技术  读完
+category: 科学技术
 
 ---
 

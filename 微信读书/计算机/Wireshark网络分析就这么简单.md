@@ -12,15 +12,16 @@ readingTime: 6小时53分钟
 readingDate: 2024-03-20
 finishedDate: 2024-04-15
 isbn: 9787115366610
-category: 计算机 计算机综合
+categorys: 计算机 计算机综合
 title: Wireshark网络分析就这么简单
 rating: 87.6%
 readProgress: 100
 readingTimestamp: 24839
 lastReadDate: 2024-04-15
 lastReadTimestamp: 1713160091
-tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 89611
+tags: 读书笔记 计算机 计算机综合  读完
+category: 计算机
 
 ---
 

@@ -12,15 +12,16 @@ readingTime: 28小时18分钟
 readingDate: 2023-12-12
 finishedDate: 2024-09-02
 isbn: 9787121442575
-category: 计算机 数据库
+categorys: 计算机 数据库
 title: 高性能MySQL（第4版）
-rating: 73.9%
+rating: 74.1%
 readProgress: 100
 readingTimestamp: 101884
 lastReadDate: 2024-01-18
 lastReadTimestamp: 1725276794
-tags: 读书笔记 计算机 数据库 读完
 totalWords: 245520
+tags: 读书笔记 计算机 数据库  读完
+category: 计算机
 
 ---
 
