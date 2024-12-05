@@ -16,7 +16,7 @@ categorys: 计算机 计算机综合
 title: 深入理解Go语言
 rating: 82%
 readProgress: 100
-readingTimestamp: 11828
+readingTimestamp: 11863
 lastReadDate: 2024-11-12
 lastReadTimestamp: 1709277621
 totalWords: 167650

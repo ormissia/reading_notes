@@ -14,7 +14,7 @@ finishedDate: 2024-03-19
 isbn: 9787115636409
 categorys: 科学技术 工业技术
 title: 大模型应用开发极简入门：基于GPT-4和ChatGPT
-rating: 70.9%
+rating: 71%
 readProgress: 100
 readingTimestamp: 13566
 lastReadDate: 2024-03-19

@@ -13,7 +13,7 @@ readingDate: 2024-01-06
 isbn: 9787121317866
 categorys: 计算机 计算机综合
 title: 自己动手写Docker
-rating: 79.7%
+rating: 79.8%
 readProgress: 15
 readingTimestamp: 340
 lastReadDate: 2024-01-16
