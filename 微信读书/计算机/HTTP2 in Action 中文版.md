@@ -5,18 +5,22 @@ reviewCount: 0
 noteCount: 3
 author: Barry Pollard
 cover: https://cdn.weread.qq.com/weread/cover/50/YueWen_32517945/t6_YueWen_32517945.jpg
-progress: 53%
-readingTime: 5小时11分钟
+progress: 61%
+readingTime: 7小时37分钟
 readingDate: 2025-05-06
 isbn: 9787121386718
 category: 计算机 理论知识
 title: HTTP/2 in Action 中文版
-rating: 71.9%
-readProgress: 53
-readingTimestamp: 18693
+rating: 72.2%
+readProgress: 61
+readingTimestamp: 27460
 lastReadDate: 2025-05-16
-lastReadTimestamp: 
-tags: 读书笔记 计算机 理论知识 在读
+lastReadTimestamp:
+tags:
+  - 读书笔记
+  - 计算机
+  - 理论知识
+  - 在读
 totalWords: 239680
 
 ---

@@ -12,12 +12,16 @@ finishedDate: 2024-12-20
 isbn: 9787115516763
 category: 计算机 计算机综合
 title: 凤凰项目：一个IT运维的传奇故事（修订版）
-rating: 92.8%
+rating: 92.3%
 readProgress: 55
 readingTimestamp: 35066
 lastReadDate: 2024-12-19
 lastReadTimestamp: 1734686026
-tags: 读书笔记 计算机 计算机综合 读完
+tags:
+  - 读书笔记
+  - 计算机
+  - 计算机综合
+  - 读完
 totalWords: 285064
 
 ---

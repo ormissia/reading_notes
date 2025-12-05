@@ -12,12 +12,16 @@ finishedDate: 2024-03-19
 isbn: 9787115636409
 category: 计算机 编程设计
 title: 大模型应用开发极简入门：基于GPT-4和ChatGPT
-rating: 71.4%
+rating: 71.1%
 readProgress: 99
 readingTimestamp: 13566
 lastReadDate: 2024-03-19
 lastReadTimestamp: 1710854253
-tags: 读书笔记 计算机 编程设计 读完
+tags:
+  - 读书笔记
+  - 计算机
+  - 编程设计
+  - 读完
 totalWords: 108251
 
 ---

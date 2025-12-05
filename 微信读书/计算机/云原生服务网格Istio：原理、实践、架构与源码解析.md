@@ -15,8 +15,12 @@ rating: 0%
 readProgress: 36
 readingTimestamp: 17241
 lastReadDate: 2024-01-19
-lastReadTimestamp: 
-tags: 读书笔记 计算机 理论知识 在读
+lastReadTimestamp:
+tags:
+  - 读书笔记
+  - 计算机
+  - 理论知识
+  - 在读
 totalWords: 273677
 
 ---
