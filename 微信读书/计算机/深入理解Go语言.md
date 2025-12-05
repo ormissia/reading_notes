@@ -4,24 +4,21 @@ bookId: "3300059653"
 reviewCount: 0
 noteCount: 11
 author: 刘丹冰
-cover: https://cdn.weread.qq.com/weread/cover/77/cpplatform_nhmagh6mnyrbgfugxz55lv/t7_cpplatform_nhmagh6mnyrbgfugxz55lv1684921281.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/77/cpplatform_nhmagh6mnyrbgfugxz55lv/t6_cpplatform_nhmagh6mnyrbgfugxz55lv1684921281.jpg
 progress: 100%
-totalReadDay: 3
 readingTime: 3小时17分钟
 readingDate: 2024-02-21
 finishedDate: 2024-03-01
 isbn: 9787302613664
-categorys: 计算机 计算机综合
+category: 计算机 计算机综合
 title: 深入理解Go语言
-rating: 82%
+rating: 77%
 readProgress: 100
 readingTimestamp: 11863
 lastReadDate: 2024-11-12
 lastReadTimestamp: 1709277621
+tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 167650
-tags: 读书笔记 计算机 计算机综合  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] 深入理解Go语言
-> - ![ 深入理解Go语言|200](https://cdn.weread.qq.com/weread/cover/77/cpplatform_nhmagh6mnyrbgfugxz55lv/t7_cpplatform_nhmagh6mnyrbgfugxz55lv1684921281.jpg)
+> - ![ 深入理解Go语言|200](https://cdn.weread.qq.com/weread/cover/77/cpplatform_nhmagh6mnyrbgfugxz55lv/t6_cpplatform_nhmagh6mnyrbgfugxz55lv1684921281.jpg)
 > - 书名： 深入理解Go语言
 > - 作者： 刘丹冰
 > - 简介： 本书为深入理解学习Go语言必经之路中的重点知识领域，采用大量精美详细的图文介绍，文章讲解深入浅出，极大降低了理解Golang底层精髓的学习门槛。 本书包含3篇：第一篇为深度理论篇（第1章~第4章），包含深入理解Golang中GPM模型、深入理解Golang垃圾回收GC三色标记与混合写屏障、深入理解Golang内存管理模型、网络IO复用模型等。第二篇为Golang实战中需要进阶的知识盲区介绍（第5章~第12章）。第三篇为基于Golang从0到1的实现轻量级网络服务框架Zinx及相关应用案例。 本书主要的面向读者是已经具有软件编程开发经验的工程师、系统开发工程师、期望由Python、PHP、C/C++、Ruby、Java等编程语言转职到Golang开发的后端工程师、期望深入理解Go语言特性的计算机软件学者等。

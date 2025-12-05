@@ -4,24 +4,21 @@ bookId: "729216"
 reviewCount: 0
 noteCount: 18
 author: 林沛满
-cover: https://wfqqreader-1252317822.image.myqcloud.com/cover/216/729216/t7_729216.jpg
-readingStatus: 读完
+cover: https://wfqqreader-1252317822.image.myqcloud.com/cover/216/729216/t6_729216.jpg
 progress: 89%
-totalReadDay: 5
 readingTime: 6小时53分钟
 readingDate: 2024-03-20
 finishedDate: 2024-04-15
 isbn: 9787115366610
-categorys: 计算机 计算机综合
+category: 计算机 计算机综合
 title: Wireshark网络分析就这么简单
-rating: 87.7%
-readProgress: 100
+rating: 87.6%
+readProgress: 89
 readingTimestamp: 24839
 lastReadDate: 2024-04-15
 lastReadTimestamp: 1713160091
+tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 89611
-tags: 读书笔记 计算机 计算机综合  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] Wireshark网络分析就这么简单
-> - ![ Wireshark网络分析就这么简单|200](https://wfqqreader-1252317822.image.myqcloud.com/cover/216/729216/t7_729216.jpg)
+> - ![ Wireshark网络分析就这么简单|200](https://wfqqreader-1252317822.image.myqcloud.com/cover/216/729216/t6_729216.jpg)
 > - 书名： Wireshark网络分析就这么简单
 > - 作者： 林沛满
 > - 简介： 　　Wireshark可能是世界上最好的开源网络包分析器，能在多种平台上(比如Windows、Linux和Mac)抓取和分析网络包，在IT业界有着广泛的应用。　　《Wireshark网络分析就这么简单》采用诙谐风趣的手法，由浅入深地用Wireshark分析了常见的网络协议，读者在学习Wireshark的同时，也会在不知不觉中理解这些协议。作者还通过身边发生的一些真实案例，分享了Wireshark的实战技巧。　　《Wireshark网络分析就这么简单》不务虚，不注水，几乎页页干货，篇篇精华，力求为读者提供最佳阅读体验，使读者在一个轻松愉悦的阅读氛围中，潜移默化地掌握Wireshark的使用技巧和网络知识，为你的工程师生涯加油助力。　　无论你是技术支持工程师、系统管理员、现场工程师、公司IT部门的老好人，还是高校网络相关专业的教师，无论你是CCNA、CCNP、CCIE，还是MCSE，《Wireshark网络分析就这么简单》都是迅速了解、掌握Wireshark技巧的绝佳读物。

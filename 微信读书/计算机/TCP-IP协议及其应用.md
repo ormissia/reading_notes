@@ -4,24 +4,21 @@ bookId: "22651844"
 reviewCount: 0
 noteCount: 84
 author: 林成浴
-cover: https://cdn.weread.qq.com/weread/cover/10/YueWen_22651844/t7_YueWen_22651844.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/10/YueWen_22651844/t6_YueWen_22651844.jpg
 progress: 75%
-totalReadDay: 7
 readingTime: 11小时58分钟
 readingDate: 2024-01-04
 finishedDate: 2024-01-16
 isbn: 9787115325228
-categorys: 计算机 计算机综合
+category: 计算机 计算机综合
 title: TCP-IP协议及其应用
 rating: 69.3%
-readProgress: 100
+readProgress: 75
 readingTimestamp: 43109
 lastReadDate: 2024-01-16
 lastReadTimestamp: 1705372720
+tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 330693
-tags: 读书笔记 计算机 计算机综合  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] TCP-IP协议及其应用
-> - ![ TCP-IP协议及其应用|200](https://cdn.weread.qq.com/weread/cover/10/YueWen_22651844/t7_YueWen_22651844.jpg)
+> - ![ TCP-IP协议及其应用|200](https://cdn.weread.qq.com/weread/cover/10/YueWen_22651844/t6_YueWen_22651844.jpg)
 > - 书名： TCP-IP协议及其应用
 > - 作者： 林成浴
 > - 简介： 本书基于网络工程和应用需求，按照从低层到高层的逻辑顺序，有针对性地讲解TCP-IP的层次结构、工作原理和协议数据单元。全书共13章，内容包括TCP-IP基础、网络接口层、IP寻址与地址解析、IP协议、ICMP协议、IP路由、TCP与UDP协议、DNS与DHCP协议、应用层协议、SNMP协议、网络安全协议，以及IPv6协议。本书内容丰富，注重系统性和实践性，对于重点协议提供协议分析操作示范，引导读者直观地探索TCP-IP。编写过程中参考了最新的RFC文档，反映TCP-IP最新的一些发展动态。本书可作为计算机网络相关专业的教材，也可作为网络管理和维护人员的参考书以及各种培训班的教材。

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "787e6304c2d59226",
+        "id": "26cce73099aa7d50",
         "type": "tabs",
         "children": [
           {
-            "id": "9d38b365f64b4c0e",
+            "id": "508009c037e063d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂七杂八_2.md",
+                "file": "阅读总览.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "杂七杂八_2"
+              "title": "阅读总览"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "存在主义",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +80,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -172,22 +172,12 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "0c4dcd74c749ba5c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": true,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "canvas:新建白板": true,
@@ -203,49 +194,48 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "publish:发布更改": true,
-      "obsidian-git:Open Git source control": false,
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "9d38b365f64b4c0e",
+  "active": "508009c037e063d0",
   "lastOpenFiles": [
-    "杂七杂八_3.md",
-    "阅读看板.md",
-    "微信读书/文学/四面风.md",
     "杂七杂八_1.md",
-    "杂七杂八_2.md",
-    "微信读书/文学/念念远山.md",
     "阅读总览.md",
-    "微信读书/文学/在雪山和雪山之间.md",
-    "微信读书/历史/野史未必假.md",
-    "微信读书/文学/梅里雪山：寻找十七位友人.md",
-    "微信读书/计算机/凤凰项目：一个IT运维的传奇故事（修订版）.md",
-    "微信读书/文学/登山物语.md",
-    "微信读书/社会文化/他者的消失.md",
-    "微信读书/社会文化/爱欲之死.md",
-    "微信读书/文学/我走入宁静蔚蓝的日子.md",
-    "微信读书/文学/局外人.md",
-    "微信读书/文学/风沙星辰（果麦经典）.md",
-    "微信读书/精品小说/墓园的花要常换水（瓦莱莉·佩兰作品系列）.md",
-    "微信读书/文学/到灯塔去（伍尔夫文集）.md",
-    "微信读书/文学/百年孤独.md",
-    "微信读书/文学/一九八四（译文经典）.md",
-    "微信读书/历史/从开国斗到亡国：明朝残酷权力斗争全史.md",
-    "微信读书/历史/盛世前夜：后武则天时代的政治缠斗.md",
-    "微信读书/经济理财/可观测性工程.md",
-    "微信读书/文学/刀锋（毛姆长篇作品精选）.md",
-    "微信读书/计算机/Kubernetes网络权威指南：基础、原理与实践.md",
+    "杂七杂八_3.md",
+    "README.md",
+    "微信读书/哲学宗教/康德的大刀：《纯粹理性批判》导读.md",
+    "微信读书/哲学宗教/理想国.md",
+    "未命名.base",
+    "杂七杂八_2.md",
+    "阅读看板.md",
+    "微信读书/文学/多余的我.md",
+    "微信读书/教育学习/形式逻辑（第五版）.md",
+    "微信读书/艺术/理解一张照片：约翰·伯格论摄影.md",
+    "微信读书/心理/性学三论（果麦经典）.md",
+    "微信读书/哲学宗教/要么孤独要么庸俗.md",
+    "微信读书/艺术/文学与电影十讲：在无限的世界里旅行.md",
+    "微信读书/哲学宗教/苦论.md",
+    "微信读书/哲学宗教/金刚经（典藏）.md",
+    "微信读书/未分类/哲学要义.md",
+    "微信读书/文学/我身上有个不可战胜的夏天（果麦经典）.md",
+    "微信读书/文学/恶心.md",
+    "微信读书/未分类/哲学家们都干了些什么？ （修订版）.md",
+    "微信读书/文学/枯枝败叶.md",
+    "微信读书_副本/文学/鼠疫.md",
+    "微信读书_副本/文学/香水（同名电影原著）.md",
+    "微信读书_副本/文学/风沙星辰（果麦经典）.md",
+    "微信读书_副本/文学/面纱（毛姆精选集）.md",
+    "微信读书_副本/文学/霍乱时期的爱情.md",
+    "微信读书_副本/文学",
+    "微信读书_副本/个人成长",
+    "微信读书_副本/艺术",
+    "微信读书_副本/精品小说",
+    "微信读书_副本/心理",
+    "微信读书_副本/经济理财",
+    "微信读书_副本/计算机",
+    "微信读书_副本/童书",
+    "微信读书_副本/哲学宗教",
     "纸质书/xinjing.jpg",
-    "微信读书/个人成长",
-    "微信读书/政治军事",
-    "微信读书/科学技术",
-    "微信读书/艺术",
-    "微信读书/教育学习",
-    "微信读书/历史",
-    "微信读书/社会文化",
-    "微信读书/生活百科",
-    "微信读书/心理",
-    "微信读书/哲学宗教",
     "读书笔记/img/TCP-IP协议及其应用-3.png",
     "读书笔记/img/TCP-IP协议及其应用-2.png",
     "读书笔记/img/TCP-IP协议及其应用-1.png",

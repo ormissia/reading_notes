@@ -4,23 +4,20 @@ bookId: "3300055509"
 reviewCount: 0
 noteCount: 35
 author: 张超盟 等
-cover: https://cdn.weread.qq.com/weread/cover/74/cpplatform_89br3rqhwrf9z4leqcjnp5/t7_cpplatform_89br3rqhwrf9z4leqcjnp51681457871.jpg
-readingStatus: 在读
+cover: https://cdn.weread.qq.com/weread/cover/74/cpplatform_89br3rqhwrf9z4leqcjnp5/t6_cpplatform_89br3rqhwrf9z4leqcjnp51681457871.jpg
 progress: 36%
-totalReadDay: 5
 readingTime: 4小时47分钟
 readingDate: 2024-01-16
 isbn: 9787121366536
-categorys: 计算机 理论知识
+category: 计算机 理论知识
 title: 云原生服务网格Istio：原理、实践、架构与源码解析
 rating: 0%
 readProgress: 36
 readingTimestamp: 17241
 lastReadDate: 2024-01-19
-lastReadTimestamp: 1708272000
+lastReadTimestamp: 
+tags: 读书笔记 计算机 理论知识 在读
 totalWords: 273677
-tags: 读书笔记 计算机 理论知识  在读
-category: 计算机
 
 ---
 
@@ -28,7 +25,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] 云原生服务网格Istio：原理、实践、架构与源码解析
-> - ![ 云原生服务网格Istio：原理、实践、架构与源码解析|200](https://cdn.weread.qq.com/weread/cover/74/cpplatform_89br3rqhwrf9z4leqcjnp5/t7_cpplatform_89br3rqhwrf9z4leqcjnp51681457871.jpg)
+> - ![ 云原生服务网格Istio：原理、实践、架构与源码解析|200](https://cdn.weread.qq.com/weread/cover/74/cpplatform_89br3rqhwrf9z4leqcjnp5/t6_cpplatform_89br3rqhwrf9z4leqcjnp51681457871.jpg)
 > - 书名： 云原生服务网格Istio：原理、实践、架构与源码解析
 > - 作者： 张超盟 等
 > - 简介： 本书分为原理篇、实践篇、架构篇和源码篇，由浅入深地将Istio项目庖丁解牛并呈现给读者。原理篇介绍了服务网格技术与Istio项目的技术背景、设计理念与功能原理，能够帮助读者了解服务网格这一云原生领域的标志性技术，掌握Istio流量治理、策略与遥测和安全功能的使用方法。实践篇从零开始搭建Istio运行环境并完成一个真实应用的开发、交付、上线监控与治理的完整过程，能够帮助读者熟悉Istio的功能并加深对Istio的理解。架构篇剖析了Istio项目的三大核心子项目Pilot、Mixer、Citadel的详细架构，帮助读者熟悉Envoy、Galley、Pilot-agent等相关项目，并挖掘Istio代码背后的设计与实现思想。源码篇对Istio各个项目的代码结构、文件组织、核心流程、主要数据结构及各主要代码片段等关键内容都进行了详细介绍，读者只需具备一定的Go语言基础，便可快速掌握Istio各部分的实现原理，并根据自己的兴趣深入了解某一关键机制的完整实现。本书提供源码下载，参见http://github.com/cloudnativebooks/cloud-native-istio。无论是对于刚入门Istio的读者，还是对于已经在产品中使用Istio的读者，本书都极具参考价值。

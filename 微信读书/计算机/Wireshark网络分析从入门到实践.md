@@ -4,24 +4,21 @@ bookId: "25916509"
 reviewCount: 0
 noteCount: 5
 author: 李华峰 陈虹
-cover: https://cdn.weread.qq.com/weread/cover/51/YueWen_25916509/t7_YueWen_25916509.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/51/YueWen_25916509/t6_YueWen_25916509.jpg
 progress: 88%
-totalReadDay: 4
 readingTime: 1小时51分钟
 readingDate: 2024-01-14
 finishedDate: 2024-03-07
 isbn: 9787115505224
-categorys: 计算机 理论知识
+category: 计算机 理论知识
 title: Wireshark网络分析从入门到实践
-rating: 76.1%
-readProgress: 100
+rating: 75.6%
+readProgress: 88
 readingTimestamp: 6674
 lastReadDate: 2024-03-04
 lastReadTimestamp: 1709822236
+tags: 读书笔记 计算机 理论知识 读完
 totalWords: 138756
-tags: 读书笔记 计算机 理论知识  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] Wireshark网络分析从入门到实践
-> - ![ Wireshark网络分析从入门到实践|200](https://cdn.weread.qq.com/weread/cover/51/YueWen_25916509/t7_YueWen_25916509.jpg)
+> - ![ Wireshark网络分析从入门到实践|200](https://cdn.weread.qq.com/weread/cover/51/YueWen_25916509/t6_YueWen_25916509.jpg)
 > - 书名： Wireshark网络分析从入门到实践
 > - 作者： 李华峰 陈虹
 > - 简介： Wireshark是一款开源网络协议分析器，能够在多种平台（例如Windows、Linux和Mac）上抓取和分析网络包。本书将通过图文并茂的形式来帮助读者了解并掌握Wireshark的使用技巧。本书由网络安全领域资深的高校教师编写完成，集合了丰富的案例，并配合了简洁易懂的讲解方式。全书共分17章，从Wireshark的下载和安装开始讲解，陆续介绍了数据包的过滤机制、捕获文件的打开与保存、虚拟网络环境的构建、常见网络设备、Wireshark的部署方式、网络延迟的原因、网络故障的原因，并介绍了多种常见的攻击方式及应对策略，除此之外，本书还讲解了如何扩展Wireshark的功能以及Wireshark中的辅助工具。本书实用性较强，适合网络安全渗透测试人员、运维工程师、网络管理员、计算机相关专业的学生以及各类安全从业者参考阅读。

@@ -4,24 +4,21 @@ bookId: "3300035678"
 reviewCount: 1
 noteCount: 53
 author: Silvia Botros   Jeremy Tinley
-cover: https://cdn.weread.qq.com/weread/cover/5/cpPlatform_tpeiJyaZriAkSeauDycVY8/t7_cpPlatform_tpeiJyaZriAkSeauDycVY8.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/5/cpPlatform_tpeiJyaZriAkSeauDycVY8/t6_cpPlatform_tpeiJyaZriAkSeauDycVY8.jpg
 progress: 100%
-totalReadDay: 18
 readingTime: 28小时18分钟
 readingDate: 2023-12-12
 finishedDate: 2024-09-02
 isbn: 9787121442575
-categorys: 计算机 数据库
+category: 计算机 数据库
 title: 高性能MySQL（第4版）
-rating: 73.6%
+rating: 73.8%
 readProgress: 100
 readingTimestamp: 101884
 lastReadDate: 2024-01-18
 lastReadTimestamp: 1725276794
+tags: 读书笔记 计算机 数据库 读完
 totalWords: 245520
-tags: 读书笔记 计算机 数据库  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] 高性能MySQL（第4版）
-> - ![ 高性能MySQL（第4版）|200](https://cdn.weread.qq.com/weread/cover/5/cpPlatform_tpeiJyaZriAkSeauDycVY8/t7_cpPlatform_tpeiJyaZriAkSeauDycVY8.jpg)
+> - ![ 高性能MySQL（第4版）|200](https://cdn.weread.qq.com/weread/cover/5/cpPlatform_tpeiJyaZriAkSeauDycVY8/t6_cpPlatform_tpeiJyaZriAkSeauDycVY8.jpg)
 > - 书名： 高性能MySQL（第4版）
 > - 作者： Silvia Botros   Jeremy Tinley
 > - 简介： 《高性能 MySQL》一直是 MySQL 领域的经典之作，影响了一代又一代的 DBA 和技术人员，从第3 版出版到第 4 版出版过去了近十年，MySQL 也从 5.5 版本更新到了 8.0 版本。第 4 版中增加了大量对 MySQL 5.7 和 8.0 版本新特性的介绍，删除了一些在新版本中已经废弃或者不再常用的功能，还增加了对云数据库的介绍，减少了在官方文档中已有的基础使用和配置相关的内容。这些年，MySQL 经过在大量大规模互联网场景中的应用验证，使得本书在继续关注高性能之外，还用了较多的篇幅来介绍如何实现 MySQL 的大规模可扩展应用和合规性问题，这是相比第 3 版最大的不同，也是本书封面上所写的“经过大规模运维验证的策略”的体现。本书适合数据库管理员（DBA）阅读，也适合系统运维和开发人员参考学习。不管你是数据库新手还是专家，相信都能从本书中有所收获。

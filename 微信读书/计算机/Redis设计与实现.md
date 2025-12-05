@@ -4,24 +4,21 @@ bookId: "622000"
 reviewCount: 3
 noteCount: 87
 author: 黄健宏
-cover: https://cdn.weread.qq.com/weread/cover/54/YueWen_622000/t7_YueWen_622000.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/54/YueWen_622000/t6_YueWen_622000.jpg
 progress: 100%
-totalReadDay: 4
 readingTime: 4小时53分钟
 readingDate: 2024-01-19
 finishedDate: 2024-02-19
 isbn: 9787111464747
-categorys: 计算机 编程设计
+category: 计算机 编程设计
 title: Redis设计与实现
-rating: 85.7%
+rating: 85.8%
 readProgress: 100
 readingTimestamp: 17580
 lastReadDate: 2024-02-19
 lastReadTimestamp: 1708334852
+tags: 读书笔记 计算机 编程设计 读完
 totalWords: 289957
-tags: 读书笔记 计算机 编程设计  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] Redis设计与实现
-> - ![ Redis设计与实现|200](https://cdn.weread.qq.com/weread/cover/54/YueWen_622000/t7_YueWen_622000.jpg)
+> - ![ Redis设计与实现|200](https://cdn.weread.qq.com/weread/cover/54/YueWen_622000/t6_YueWen_622000.jpg)
 > - 书名： Redis设计与实现
 > - 作者： 黄健宏
 > - 简介： 《Redis设计与实现》对Redis的大多数单机功能以及所有多机功能的实现原理进行了介绍，展示了这些功能的核心数据结构以及关键的算法思想。通过阅读本书，读者可以快速、有效地了解Redis的内部构造以及运作机制，这些知识可以帮助读者更好、更高效地使用Redis。本书主要分为四大部分。第一部分“数据结构与对象”介绍了Redis中的各种对象及其数据结构，并说明这些数据结构如何影响对象的功能和性能。第二部分“单机数据库的实现”对Redis实现单机数据库的方法进行了介绍，包括数据库、RDB持久化、AOF持久化、事件等。第三部分“多机数据库的实现”对Redis的Sentinel、复制（replication）、集群（cluster）三个多机功能进行了介绍。第四部分“独立功能的实现”对Redis中各个相对独立的功能模块进行了介绍，涉及发布与订阅、事务、Lua脚本、排序、二进制位数组、慢查询日志、监视器等。

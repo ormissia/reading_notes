@@ -4,24 +4,21 @@ bookId: "27741281"
 reviewCount: 0
 noteCount: 65
 author: 杜军
-cover: https://wfqqreader-1252317822.image.myqcloud.com/cover/281/27741281/t7_27741281.jpg
-readingStatus: 读完
+cover: https://wfqqreader-1252317822.image.myqcloud.com/cover/281/27741281/t6_27741281.jpg
 progress: 100%
-totalReadDay: 7
 readingTime: 10小时32分钟
 readingDate: 2024-02-20
 finishedDate: 2024-02-29
 isbn: 9787121373398
-categorys: 计算机 计算机综合
+category: 计算机 计算机综合
 title: Kubernetes网络权威指南：基础、原理与实践
 rating: 81.3%
 readProgress: 100
 readingTimestamp: 37961
 lastReadDate: 2024-02-29
 lastReadTimestamp: 1709197266
+tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 203519
-tags: 读书笔记 计算机 计算机综合  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] Kubernetes网络权威指南：基础、原理与实践
-> - ![ Kubernetes网络权威指南：基础、原理与实践|200](https://wfqqreader-1252317822.image.myqcloud.com/cover/281/27741281/t7_27741281.jpg)
+> - ![ Kubernetes网络权威指南：基础、原理与实践|200](https://wfqqreader-1252317822.image.myqcloud.com/cover/281/27741281/t6_27741281.jpg)
 > - 书名： Kubernetes网络权威指南：基础、原理与实践
 > - 作者： 杜军
 > - 简介： 本书是容器与Kubernetes网络的基础和进阶书籍，旨在让更多人了解和学习云原生时代的底层网络模型与实现机制，指导企业在落地云原生时的网络方案选型。全书包括：容器网络虚拟化基础、Docker容器网络、Kubernetes网络和Istio网络4部分，共6章。第1章容器网络虚拟化基础将支撑容器网络的内核技术娓娓道来。第2章简单介绍了Docker原生的容器网络能力。Kubernetes网络分为3章，第3章介绍Kubernetes网络的基础概念和使用，第4章为读者剖析了Kubernetes网络的底层实现原理，第5章详解了业界主流的Kubernetes网络插件。Istio网络总共1章，重点解析Istio网络流量管控的背后机制。

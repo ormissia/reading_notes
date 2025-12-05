@@ -4,24 +4,21 @@ bookId: "38153670"
 reviewCount: 2
 noteCount: 65
 author: 奈吉尔·波尔顿
-cover: https://cdn.weread.qq.com/weread/cover/5/YueWen_38153670/t7_YueWen_38153670.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/5/YueWen_38153670/t6_YueWen_38153670.jpg
 progress: 100%
-totalReadDay: 2
 readingTime: 1小时37分钟
 readingDate: 2024-02-11
 finishedDate: 2024-02-14
 isbn: 9787115561091
-categorys: 计算机 计算机综合
+category: 计算机 计算机综合
 title: Kubernetes修炼手册
-rating: 74.5%
+rating: 73.6%
 readProgress: 100
 readingTimestamp: 5842
 lastReadDate: 2024-02-14
 lastReadTimestamp: 1707921403
+tags: 读书笔记 计算机 计算机综合 读完
 totalWords: 153396
-tags: 读书笔记 计算机 计算机综合  读完
-category: 计算机
 
 ---
 
@@ -29,7 +26,7 @@ category: 计算机
 
 # 元数据
 > [!abstract] Kubernetes修炼手册
-> - ![ Kubernetes修炼手册|200](https://cdn.weread.qq.com/weread/cover/5/YueWen_38153670/t7_YueWen_38153670.jpg)
+> - ![ Kubernetes修炼手册|200](https://cdn.weread.qq.com/weread/cover/5/YueWen_38153670/t6_YueWen_38153670.jpg)
 > - 书名： Kubernetes修炼手册
 > - 作者： 奈吉尔·波尔顿
 > - 简介： 本书是一本Kubernetes入门图书，共分为12章，涵盖了Kubernetes的基础知识，并附带了大量的配置案例。此外，还介绍了Kubernetes架构、构建Kubernetes集群、在Kubernetes上部署和管理应用程序、Kubernetes安全，以及云本地、微服务、容器化等术语的含义。本书在内容上不断进行充实和完善，可以帮助读者快速入门Kubernetes。本书适合系统管理员、开发人员，以及对Kubernetes感兴趣的初学者阅读。

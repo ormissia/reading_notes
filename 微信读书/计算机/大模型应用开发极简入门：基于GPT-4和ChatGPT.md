@@ -4,24 +4,21 @@ bookId: "3300090305"
 reviewCount: 0
 noteCount: 19
 author: 奥利维耶·卡埃朗  【法】玛丽-艾丽斯·布莱特
-cover: https://cdn.weread.qq.com/weread/cover/44/cpplatform_uzfvcz8q85gdzbaqvchudt/t7_cpplatform_uzfvcz8q85gdzbaqvchudt1709868767.jpg
-readingStatus: 读完
+cover: https://cdn.weread.qq.com/weread/cover/44/cpplatform_uzfvcz8q85gdzbaqvchudt/t6_cpplatform_uzfvcz8q85gdzbaqvchudt1709868767.jpg
 progress: 99%
-totalReadDay: 2
 readingTime: 3小时46分钟
 readingDate: 2024-03-10
 finishedDate: 2024-03-19
 isbn: 9787115636409
-categorys: 科学技术 工业技术
+category: 计算机 编程设计
 title: 大模型应用开发极简入门：基于GPT-4和ChatGPT
-rating: 71%
-readProgress: 100
+rating: 71.4%
+readProgress: 99
 readingTimestamp: 13566
 lastReadDate: 2024-03-19
 lastReadTimestamp: 1710854253
+tags: 读书笔记 计算机 编程设计 读完
 totalWords: 108251
-tags: 读书笔记 科学技术 工业技术  读完
-category: 科学技术
 
 ---
 
@@ -29,13 +26,13 @@ category: 科学技术
 
 # 元数据
 > [!abstract] 大模型应用开发极简入门：基于GPT-4和ChatGPT
-> - ![ 大模型应用开发极简入门：基于GPT-4和ChatGPT|200](https://cdn.weread.qq.com/weread/cover/44/cpplatform_uzfvcz8q85gdzbaqvchudt/t7_cpplatform_uzfvcz8q85gdzbaqvchudt1709868767.jpg)
+> - ![ 大模型应用开发极简入门：基于GPT-4和ChatGPT|200](https://cdn.weread.qq.com/weread/cover/44/cpplatform_uzfvcz8q85gdzbaqvchudt/t6_cpplatform_uzfvcz8q85gdzbaqvchudt1709868767.jpg)
 > - 书名： 大模型应用开发极简入门：基于GPT-4和ChatGPT
 > - 作者： 奥利维耶·卡埃朗  【法】玛丽-艾丽斯·布莱特
 > - 简介： 本书为大模型应用开发极简入门手册，为初学者提供了一份清晰、全面的“可用知识”，带领大家快速了解GPT-4和ChatGPT的工作原理及优势，并在此基础上使用流行的Python编程语言构建大模型应用。通过本书，你不仅可以学会如何构建文本生成、问答和内容摘要等初阶大模型应用，还能了解到提示工程、模型微调、插件、LangChain等高阶实践技术。书中提供了简单易学的示例，帮你理解并应用在自己的项目中。此外，书后还提供了一份术语表，方便你随时参考。  准备好了吗？只需了解Python，你即可将本书作为进入大模型时代的启动手册，开发出自己的大模型应用。
 > - 出版时间 2024-02-01 00:00:00
 > - ISBN： 9787115636409
-> - 分类： 科学技术-工业技术
+> - 分类： 计算机-编程设计
 > - 出版社： 人民邮电出版社有限公司
 
 
