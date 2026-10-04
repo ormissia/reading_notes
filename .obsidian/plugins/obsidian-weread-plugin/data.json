@@ -1,72 +1,554 @@
 {
   "loginMethod": "scan",
-  "cookies": [
-    {
-      "name": "wr_fp",
-      "value": "477257084"
-    },
-    {
-      "name": "wr_gid",
-      "value": "278965588"
-    },
-    {
-      "name": "wr_skey",
-      "value": "RFTKm_5r"
-    },
-    {
-      "name": "wr_vid",
-      "value": "439222474"
-    },
-    {
-      "name": "wr_ql",
-      "value": "0"
-    },
-    {
-      "name": "wr_rt",
-      "value": "web@AMrUEhKCjKK9RV81RYd_AL"
-    },
-    {
-      "name": "wr_localvid",
-      "value": "19132c6081a2e00ca191218"
-    },
-    {
-      "name": "wr_name",
-      "value": "安红豆"
-    },
-    {
-      "name": "wr_avatar",
-      "value": "https://thirdwx.qlogo.cn/mmopen/vi_32/6ianjqFiaT5xFe8nXkdZTJAvgVqc24LTTAn9iby1toDWSpic9dFjKJ3zFbt5jSWrIruLWibwsXJK7OjRBY49UHbpTQF4MKHKdaO6jibHgPs9kaBCw/132"
-    },
-    {
-      "name": "wr_gender",
-      "value": "0"
-    }
-  ],
+  "cookies": [],
   "noteLocation": "微信读书",
   "dailyNotesLocation": "/",
   "insertAfter": "<!-- start of weread -->",
   "insertBefore": "<!-- end of weread -->",
   "dailyNotesFormat": "YYYY-MM-DD",
-  "lastCookieTime": 1764901405667,
-  "isCookieValid": true,
-  "user": "安红豆",
-  "userVid": "439222474",
+  "lastCookieTime": 1791090001089,
+  "isCookieValid": false,
+  "user": "",
+  "userVid": "",
+  "userAvatar": "",
+  "userSignature": "无罣碍故，无有恐怖",
   "template": "---\nisbn: {{metaData.isbn}}\ncategory: {% set tags = metaData.category | replace(\"-\", \" \")  %}{{tags}}\ntitle: {{metaData.title}}\nrating: {{metaData.rating}}\nreadProgress: {% if metaData.readInfo.markedStatus == 4 %}{% set progress = 100 %}{% else %}{% set progress = metaData.readInfo.readingProgress %}{% endif %}{{progress}}\nreadingTimestamp: {{metaData.readInfo. readingTime}}\nlastReadDate: {{metaData.lastReadDate}}\nlastReadTimestamp: {% if metaData.readInfo.finishedDate != null %}{% set lastReadTimestamp = metaData.readInfo.finishedDate %}{% else %}{% set lastReadTimestamp = metaData.readInfo.readDetail.lastReadingDate %}{% endif %}{{lastReadTimestamp}}\ntags: 读书笔记 {% set tags = metaData.category | replace(\"-\", \" \")  %}{{tags}} {% if metaData.readInfo.finishedDate %}读完{% else %}在读{% endif %} {% set readingStatusMap = {'1': '未标记','2': '在读','3': '读过','4': '读完'} %}{{readingStatusMap[metaData.readInfo.markedStatus]}}\ntotalWords: {{metaData.totalWords}}\n---\n\n# {{metaData.title}}\n\n# 元数据\n> [!abstract] {{metaData.title}}\n> - ![ {{metaData.title}}|200]({{metaData.cover}})\n> - 书名： {{metaData.title}}\n> - 作者： {{metaData.author}}\n> - 简介： {% set intro = metaData.intro | replace(\"\\n\",\"\") | replace(\"\\r\",\"\") %}{{intro}}\n> - 出版时间 {{metaData.publishTime}}\n> - ISBN： {{metaData.isbn}}\n> - 分类： {{metaData.category}}\n> - 出版社： {{metaData.publisher}}\n\n{% if bookReview.bookReviews and bookReview.bookReviews.length >0 %}\n---\n\n# 本书评论\n{% for bookReview in bookReview.bookReviews %}\n> [!Review] 书评 No.{{loop.index}} \n> {{bookReview.mdContent | replace(\"\\r\\n\", \"\\n> \")}} \n> ^{{bookReview.reviewId}}\n\n{% endfor%}{% endif %}\n\n---\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}## {{chapter.chapterTitle}}{% elif chapter.level == 2 %}### {{chapter.chapterTitle}}{% elif chapter.level == 3 %}#### {{chapter.chapterTitle}}{% endif %}{% for highlight in chapter.highlights %}{% set colors = ['#ffce78', '#ff8a78', '#c69eff', '#78edff', '#87d37c', '#ffce78'] %}{% set highlightColor = colors[highlight.colorStyle] %}{% if highlightColor == null %}{% set highlightColor = '#ff7898' %}{% endif %}\n{% if highlight.reviewContent %}\n> [!Annotation]+ <span style=\"color: {{highlightColor}};\">Annotation</span>\n> 📌 {{ highlight.markText | trim | replace(\" \",\"\") | replace(\"\\n\",\"\\n>\\n>\") }}\n> {{ '---' }}\n> {{ highlight.reviewContent | replace('\\n', '\\n>\\n') }}{% else %}\n> [!Cite]+ <span style=\"color: {{highlightColor}};\">Highlight</span>\n> 📌 {{ highlight.markText | trim | replace(\" \",\"\")  | replace(\"\\n\",\"\\n>\\n>\") }}\n> ^{{highlight.chapterUid}}-{{highlight.range}}{% endif %}{% endfor %}{% endfor %}\n{% if bookReview.chapterReviews  | length %}{{\\n}}# 读书笔记{% endif %}\n{% for chapter in bookReview.chapterReviews %}{% if chapter.reviews or chapter.chapterReview %}\n### {{chapter.chapterTitle}}\n{% if  chapter.chapterReviews %}{% for chapterReview in chapter.chapterReviews %}\n#### 章节评论 No.{{loop.index}}\n{{chapterReview.content}}\n^{{chapterReview.reviewId}}{{\\n}}{% endfor%}{% endif %}{% if chapter.reviews %}{# #### 划线评论 #}{%for review in chapter.reviews %}\n> [!Annotation]+ <span style=\"color: {{highlightColor}};\">Annotation</span>\n> 📌 {{review.abstract | trim | replace(\" \",\"\")  | replace(\"\\n\",\"\\n>\\n>\")}} \n> ^{{review.reviewId}}\n> {{ '---' }}\n> 💭 {{review.content | replace('\\n', '\\n> ')}}\n{% endfor %}{%endif %}{% endif %}{% endfor %}",
   "noteCountLimit": -1,
   "subFolderType": "category",
   "fileNameType": "BOOK_NAME",
   "removeParens": false,
   "removeParensWhitelist": "",
+  "filterInlineImages": false,
   "dailyNotesToggle": false,
   "notesBlacklist": "687994",
+  "notesWhitelist": "",
+  "syncMode": "blacklist",
   "showEmptyChapterTitleToggle": false,
   "convertTags": false,
   "saveArticleToggle": false,
   "saveReadingInfoToggle": true,
+  "syncPopularHighlightsToggle": false,
+  "readingOpenMode": "TAB",
+  "bookOpenMode": "web",
   "trimBlocks": false,
   "cookieCloudInfo": {
     "serverUrl": "",
     "uuid": "",
     "password": ""
-  }
+  },
+  "cookieAutoRefreshToggle": false,
+  "cookieRefreshInterval": 12,
+  "scheduledSyncToggle": false,
+  "scheduledSyncInterval": 5,
+  "lastSyncTime": 1791090032678,
+  "lastSyncBookCount": 1,
+  "lastSyncBookTitles": [],
+  "syncLogs": [
+    {
+      "id": "sync-1791090031702",
+      "timestamp": 1791090031702,
+      "totalBooks": 188,
+      "syncedBooks": 1,
+      "skippedBooks": 0,
+      "duration": 0.976,
+      "notes": [
+        {
+          "bookId": "3300103427",
+          "title": "只有春天和爱允许入内",
+          "filePath": "微信读书/漫画/只有春天和爱允许入内.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1791089311699",
+      "timestamp": 1791089311699,
+      "totalBooks": 188,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.326,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1791089267119",
+      "timestamp": 1791089267119,
+      "totalBooks": 188,
+      "syncedBooks": 54,
+      "skippedBooks": 0,
+      "duration": 36.347,
+      "notes": [
+        {
+          "bookId": "3300134092",
+          "title": "一个孤独漫步者的遐想",
+          "filePath": "微信读书/哲学宗教/一个孤独漫步者的遐想.md"
+        },
+        {
+          "bookId": "43894590",
+          "title": "如雪如山",
+          "filePath": "微信读书/文学/如雪如山.md"
+        },
+        {
+          "bookId": "3300043023",
+          "title": "妥协社会：今日之痛",
+          "filePath": "微信读书/社会文化/妥协社会：今日之痛.md"
+        },
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        },
+        {
+          "bookId": "3300023307",
+          "title": "濒临狂野的心（克拉丽丝·李斯佩克朵作品集）",
+          "filePath": "微信读书/精品小说/濒临狂野的心（克拉丽丝·李斯佩克朵作品集）.md"
+        },
+        {
+          "bookId": "24240812",
+          "title": "我的焦虑是一束火花：阿多尼斯诗歌短章选",
+          "filePath": "微信读书/文学/我的焦虑是一束火花：阿多尼斯诗歌短章选.md"
+        },
+        {
+          "bookId": "3300199397",
+          "title": "邪恶的幸福",
+          "filePath": "微信读书/精品小说/邪恶的幸福.md"
+        },
+        {
+          "bookId": "3300195932",
+          "title": "爱的艺术：珍藏本",
+          "filePath": "微信读书/心理/爱的艺术：珍藏本.md"
+        },
+        {
+          "bookId": "37651778",
+          "title": "我们时代的神经症人格（果麦经典）",
+          "filePath": "微信读书/心理/我们时代的神经症人格（果麦经典）.md"
+        },
+        {
+          "bookId": "40726712",
+          "title": "逻辑哲学论（果麦经典）",
+          "filePath": "微信读书/哲学宗教/逻辑哲学论（果麦经典）.md"
+        },
+        {
+          "bookId": "915163",
+          "title": "巴菲特传",
+          "filePath": "微信读书/经济理财/巴菲特传.md"
+        },
+        {
+          "bookId": "3300067672",
+          "title": "深度关系：从建立信任到彼此成就",
+          "filePath": "微信读书/个人成长/深度关系：从建立信任到彼此成就.md"
+        },
+        {
+          "bookId": "3300052230",
+          "title": "荒原狼（果麦经典）",
+          "filePath": "微信读书/精品小说/荒原狼（果麦经典）.md"
+        },
+        {
+          "bookId": "934396",
+          "title": "另一个，同一个",
+          "filePath": "微信读书/文学/另一个，同一个.md"
+        },
+        {
+          "bookId": "34853562",
+          "title": "抓落叶",
+          "filePath": "微信读书/精品小说/抓落叶.md"
+        },
+        {
+          "bookId": "41266983",
+          "title": "黑格尔导读（人文与社会译丛）",
+          "filePath": "微信读书/哲学宗教/黑格尔导读（人文与社会译丛）.md"
+        },
+        {
+          "bookId": "33642051",
+          "title": "贺麟全集：精神现象学（上、下卷）",
+          "filePath": "微信读书/哲学宗教/贺麟全集：精神现象学（上、下卷）.md"
+        },
+        {
+          "bookId": "3300067153",
+          "title": "形而上学",
+          "filePath": "微信读书/哲学宗教/形而上学.md"
+        },
+        {
+          "bookId": "41128921",
+          "title": "未来形而上学导论（注释本）",
+          "filePath": "微信读书/哲学宗教/未来形而上学导论（注释本）.md"
+        },
+        {
+          "bookId": "23976188",
+          "title": "克林索尔的最后夏天（果麦经典）",
+          "filePath": "微信读书/文学/克林索尔的最后夏天（果麦经典）.md"
+        },
+        {
+          "bookId": "3300161436",
+          "title": "会饮篇",
+          "filePath": "微信读书/哲学宗教/会饮篇.md"
+        },
+        {
+          "bookId": "23796165",
+          "title": "博尔赫斯全集第二辑（套装共12册）",
+          "filePath": "微信读书/文学/博尔赫斯全集第二辑（套装共12册）.md"
+        },
+        {
+          "bookId": "3300165489",
+          "title": "快乐主义（果麦经典）",
+          "filePath": "微信读书/哲学宗教/快乐主义（果麦经典）.md"
+        },
+        {
+          "bookId": "3300059311",
+          "title": "两种孤独",
+          "filePath": "微信读书/文学/两种孤独.md"
+        },
+        {
+          "bookId": "3300217276",
+          "title": "康德：被限制，但不被定义的人",
+          "filePath": "微信读书/哲学宗教/康德：被限制，但不被定义的人.md"
+        },
+        {
+          "bookId": "3300038620",
+          "title": "在绝望之巅",
+          "filePath": "微信读书/哲学宗教/在绝望之巅.md"
+        },
+        {
+          "bookId": "23789204",
+          "title": "弱传播",
+          "filePath": "微信读书/社会文化/弱传播.md"
+        },
+        {
+          "bookId": "3300159839",
+          "title": "知识的责任（轻哲学）",
+          "filePath": "微信读书/哲学宗教/知识的责任（轻哲学）.md"
+        },
+        {
+          "bookId": "41129073",
+          "title": "道德形而上学的奠基（注释本）",
+          "filePath": "微信读书/哲学宗教/道德形而上学的奠基（注释本）.md"
+        },
+        {
+          "bookId": "26441416",
+          "title": "爱情和其他魔鬼",
+          "filePath": "微信读书/文学/爱情和其他魔鬼.md"
+        },
+        {
+          "bookId": "655484",
+          "title": "计算机网络",
+          "filePath": "微信读书/计算机/计算机网络.md"
+        },
+        {
+          "bookId": "3300014126",
+          "title": "镖人（1-13｜同名影视原著）",
+          "filePath": "微信读书/精品小说/镖人（1-13｜同名影视原著）.md"
+        },
+        {
+          "bookId": "3300163779",
+          "title": "达洛维夫人",
+          "filePath": "微信读书/精品小说/达洛维夫人.md"
+        },
+        {
+          "bookId": "3300025451",
+          "title": "劳动在从猿到人转变过程中的作用",
+          "filePath": "微信读书/政治军事/劳动在从猿到人转变过程中的作用.md"
+        },
+        {
+          "bookId": "3300149620",
+          "title": "偷情的女人（轻经典）",
+          "filePath": "微信读书/精品小说/偷情的女人（轻经典）.md"
+        },
+        {
+          "bookId": "3300171631",
+          "title": "在火焰与狂喊中去爱",
+          "filePath": "微信读书/文学/在火焰与狂喊中去爱.md"
+        },
+        {
+          "bookId": "3300137457",
+          "title": "什么是西方哲学（轻哲学）",
+          "filePath": "微信读书/哲学宗教/什么是西方哲学（轻哲学）.md"
+        },
+        {
+          "bookId": "3300176638",
+          "title": "沉思录",
+          "filePath": "微信读书/哲学宗教/沉思录.md"
+        },
+        {
+          "bookId": "3300152244",
+          "title": "桑德尔：一个只能赢的社会，人人都是输家（轻哲学）",
+          "filePath": "微信读书/哲学宗教/桑德尔：一个只能赢的社会，人人都是输家（轻哲学）.md"
+        },
+        {
+          "bookId": "3300137453",
+          "title": "哲学与自杀（轻经典）",
+          "filePath": "微信读书/哲学宗教/哲学与自杀（轻经典）.md"
+        },
+        {
+          "bookId": "24987081",
+          "title": "精神政治学",
+          "filePath": "微信读书/政治军事/精神政治学.md"
+        },
+        {
+          "bookId": "29827370",
+          "title": "番石榴飘香",
+          "filePath": "微信读书/文学/番石榴飘香.md"
+        },
+        {
+          "bookId": "3300189408",
+          "title": "柏拉图《理想国》洞喻故事（轻哲学）",
+          "filePath": "微信读书/社会文化/柏拉图《理想国》洞喻故事（轻哲学）.md"
+        },
+        {
+          "bookId": "3300142487",
+          "title": "芝诺：古希腊最著名的“杠精”（轻哲学）",
+          "filePath": "微信读书/哲学宗教/芝诺：古希腊最著名的“杠精”（轻哲学）.md"
+        },
+        {
+          "bookId": "3300168259",
+          "title": "费尔巴哈：撕碎神的面纱，让哲学扎根人间（轻哲学）",
+          "filePath": "微信读书/社会文化/费尔巴哈：撕碎神的面纱，让哲学扎根人间（轻哲学）.md"
+        },
+        {
+          "bookId": "3300142992",
+          "title": "赫拉克利特：人不能两次踏进同一条河流（轻哲学）",
+          "filePath": "微信读书/哲学宗教/赫拉克利特：人不能两次踏进同一条河流（轻哲学）.md"
+        },
+        {
+          "bookId": "3300161033",
+          "title": "叔本华：在意志的风暴与安宁之间（轻哲学）",
+          "filePath": "微信读书/哲学宗教/叔本华：在意志的风暴与安宁之间（轻哲学）.md"
+        },
+        {
+          "bookId": "3300154303",
+          "title": "黑格尔：“存在即合理”，何解？（轻哲学）",
+          "filePath": "微信读书/哲学宗教/黑格尔：“存在即合理”，何解？（轻哲学）.md"
+        },
+        {
+          "bookId": "3300137144",
+          "title": "柏拉图和他的 “理想国”（轻哲学）",
+          "filePath": "微信读书/哲学宗教/柏拉图和他的 “理想国”（轻哲学）.md"
+        },
+        {
+          "bookId": "3300143223",
+          "title": "第欧根尼：不要挡住我的阳光（轻哲学）",
+          "filePath": "微信读书/哲学宗教/第欧根尼：不要挡住我的阳光（轻哲学）.md"
+        },
+        {
+          "bookId": "3300138019",
+          "title": "苏格拉底：认识你自己（轻哲学）",
+          "filePath": "微信读书/哲学宗教/苏格拉底：认识你自己（轻哲学）.md"
+        },
+        {
+          "bookId": "3300142787",
+          "title": "伊壁鸠鲁：什么是真正的快乐？（轻哲学）",
+          "filePath": "微信读书/哲学宗教/伊壁鸠鲁：什么是真正的快乐？（轻哲学）.md"
+        },
+        {
+          "bookId": "3300137251",
+          "title": "亚里士多德：吾爱吾师，吾更爱真理（轻哲学）",
+          "filePath": "微信读书/哲学宗教/亚里士多德：吾爱吾师，吾更爱真理（轻哲学）.md"
+        },
+        {
+          "bookId": "41507093",
+          "title": "理想国",
+          "filePath": "微信读书/哲学宗教/理想国.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1791088258356",
+      "timestamp": 1791088258356,
+      "totalBooks": 188,
+      "syncedBooks": 5,
+      "skippedBooks": 0,
+      "duration": 4.143,
+      "notes": [
+        {
+          "bookId": "3300134092",
+          "title": "一个孤独漫步者的遐想",
+          "filePath": "微信读书/哲学宗教/一个孤独漫步者的遐想.md"
+        },
+        {
+          "bookId": "43894590",
+          "title": "如雪如山",
+          "filePath": "微信读书/文学/如雪如山.md"
+        },
+        {
+          "bookId": "3300043023",
+          "title": "妥协社会：今日之痛",
+          "filePath": "微信读书/社会文化/妥协社会：今日之痛.md"
+        },
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        },
+        {
+          "bookId": "3300023307",
+          "title": "濒临狂野的心（克拉丽丝·李斯佩克朵作品集）",
+          "filePath": "微信读书/精品小说/濒临狂野的心（克拉丽丝·李斯佩克朵作品集）.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1790135420796",
+      "timestamp": 1790135420796,
+      "totalBooks": 185,
+      "syncedBooks": 0,
+      "skippedBooks": 0,
+      "duration": 0.432,
+      "notes": [],
+      "success": true
+    },
+    {
+      "id": "sync-1790135413346",
+      "timestamp": 1790135413346,
+      "totalBooks": 185,
+      "syncedBooks": 1,
+      "skippedBooks": 0,
+      "duration": 1.276,
+      "notes": [
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1790077857194",
+      "timestamp": 1790077857194,
+      "totalBooks": 185,
+      "syncedBooks": 1,
+      "skippedBooks": 0,
+      "duration": 1.03,
+      "notes": [
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1789954520434",
+      "timestamp": 1789954520434,
+      "totalBooks": 185,
+      "syncedBooks": 1,
+      "skippedBooks": 0,
+      "duration": 1.043,
+      "notes": [
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1789698512554",
+      "timestamp": 1789698512554,
+      "totalBooks": 185,
+      "syncedBooks": 2,
+      "skippedBooks": 0,
+      "duration": 1.502,
+      "notes": [
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        },
+        {
+          "bookId": "24240812",
+          "title": "我的焦虑是一束火花：阿多尼斯诗歌短章选",
+          "filePath": "微信读书/文学/我的焦虑是一束火花：阿多尼斯诗歌短章选.md"
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": "sync-1789549450238",
+      "timestamp": 1789549450238,
+      "totalBooks": 184,
+      "syncedBooks": 4,
+      "skippedBooks": 0,
+      "duration": 3.443,
+      "notes": [
+        {
+          "bookId": "3300231011",
+          "title": "比山更高：自由攀登者的悲情与荣耀",
+          "filePath": "微信读书/文学/比山更高：自由攀登者的悲情与荣耀.md"
+        },
+        {
+          "bookId": "3300134092",
+          "title": "一个孤独漫步者的遐想",
+          "filePath": "微信读书/哲学宗教/一个孤独漫步者的遐想.md"
+        },
+        {
+          "bookId": "3300199397",
+          "title": "邪恶的幸福",
+          "filePath": "微信读书/精品小说/邪恶的幸福.md"
+        },
+        {
+          "bookId": "3300195932",
+          "title": "爱的艺术：珍藏本",
+          "filePath": "微信读书/心理/爱的艺术：珍藏本.md"
+        }
+      ],
+      "success": true
+    }
+  ],
+  "bookshelfSortMode": "recent",
+  "bookshelfViewMode": "list",
+  "bookshelfShowCoverTitle": true,
+  "bookshelfGroupByYear": true,
+  "bookshelfDefaultSyncStatusFilter": "all",
+  "themes": [
+    {
+      "id": "builtin_merged",
+      "name": "合并式模板",
+      "description": "划线和想法 inline 展示，适合快速回顾",
+      "template": "---\nisbn: {{ metaData.isbn }}\nlastReadDate: {{ metaData.lastReadDate }}\n---\n# 元数据\n> [!abstract] {{ metaData.title }}\n> - ![ {{ metaData.title }}|200]({{ metaData.cover }})\n> - 书名： {{ metaData.title }}\n> - 作者： {{ metaData.author }}\n> - 简介： {% set intro = metaData.intro | replace(\"\\n\",\"\") | replace(\"\\r\",\"\") %}{{ intro }}\n> - 出版时间： {{ metaData.publishTime }}\n> - ISBN： {{ metaData.isbn }}\n> - 字数： {{ metaData.totalWords }}\n> - 分类： {{ metaData.category }}\n> - 出版社： {{ metaData.publisher }}\n> - PC地址：{{ metaData.pcUrl }}\n\n# 高亮划线\n{% if syncPopularHighlightsToggle %}\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n{% if highlight.isPopular and highlight.isUserHighlight %}\n{# 用户自己的划线 + 热门：📌🔥 + 共读人数 #}\n{% if highlight.reviewContent %}\n> 📌🔥 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> 🔥 {{ highlight.popularCount }} 人共读\n> 💭 {{ highlight.reviewContent }} \n> ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n{% else %}\n> 📌🔥 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> 🔥 {{ highlight.popularCount }} 人共读\n> ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n\n{% endif %}\n{% elif highlight.isPopular %}\n{# 只有热门划线（非用户）：🔥 + 共读人数 #}\n> 🔥 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> 📊 {{ highlight.popularCount }} 人共读 ^{{ highlight.bookmarkId }}\n\n{% else %}\n{# 普通用户划线（非热门）：📌 #}\n{% if highlight.reviewContent %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> 💭 {{ highlight.reviewContent }} \n> ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n{% else %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n\n{% endif %}\n{% endif %}\n{% endfor %}\n{% endfor %}\n{% else %}\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n{# 普通用户划线（不显示热门）：📌 #}\n{% if highlight.reviewContent %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n 💭 {{ highlight.reviewContent }} \n ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n{% else %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>)\n> ⏱ {{ highlight.createTime }} ^{{ highlight.bookmarkId }}\n\n{% endif %}\n{% endfor %}\n{% endfor %}\n{% endif %}\n\n# 读书笔记\n{% for chapter in bookReview.chapterReviews %}\n{% if chapter.reviews or chapter.chapterReview %}\n## {{ chapter.chapterTitle }}\n{% if chapter.chapterReviews %}\n{% for chapterReview in chapter.chapterReviews %}\n### 章节评论 No.{{ loop.index }}\n- {{ chapterReview.content }} ^{{ chapterReview.reviewId }}\n    - ⏱ {{ chapterReview.createTime }}\n{% endfor %}\n{% endif %}\n{% if chapter.reviews %}\n{% for review in chapter.reviews %}\n### 划线评论\n> 📌 {{ review.abstract | trim }} ^{{ review.reviewId }}\n    💭 {{ review.content }}\n    ⏱ {{ review.createTime }}\n{% endfor %}\n{% endif %}\n{% endif %}\n{% endfor %}\n\n# 本书评论\n{% if bookReview.bookReviews %}\n{% for bookReview in bookReview.bookReviews %}\n## 书评 No.{{ loop.index }}\n{{ bookReview.mdContent }} ^{{ bookReview.reviewId }}\n⏱ {{ bookReview.createTime }}\n{% endfor %}\n{% endif %}\n",
+      "trimBlocks": true,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "builtin_separated",
+      "name": "分离式模板",
+      "description": "先展示纯划线，笔记统一在底部，适合整理归纳",
+      "template": "---\nisbn: {{ metaData.isbn }}\nlastReadDate: {{ metaData.lastReadDate }}\n---\n# 元数据\n> [!abstract] {{ metaData.title }}\n> - ![ {{ metaData.title }}|200]({{ metaData.cover }})\n> - 书名： {{ metaData.title }}\n> - 作者： {{ metaData.author }}\n> - 简介： {% set intro = metaData.intro | replace(\"\\n\",\"\") | replace(\"\\r\",\"\") %}{{ intro }}\n> - 出版时间： {{ metaData.publishTime }}\n> - ISBN： {{ metaData.isbn }}\n> - 字数： {{ metaData.totalWords }}\n> - 分类： {{ metaData.category }}\n> - 出版社： {{ metaData.publisher }}\n> - PC地址：{{ metaData.pcUrl }}\n\n# 高亮划线\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n{% if syncPopularHighlightsToggle and highlight.isPopular %}\n> 📌🔥 [{{ highlight.markText | trim }}](<{{ deeplink }}>)  \n> 🔥 {{ highlight.popularCount }} 人共读 ^{{ highlight.bookmarkId }}\n\n{% else %}\n> 📌 [{{ highlight.markText | trim }}](<{{ deeplink }}>)   ^{{ highlight.bookmarkId }}\n\n{% endif %}\n{% endfor %}\n{% endfor %}\n\n# 笔记汇总\n{% for chapter in chapterHighlights %}\n{% for highlight in chapter.highlights %}\n{% if highlight.reviewContent %}\n## {{ chapter.chapterTitle }} 的想法\n{{ highlight.reviewContent }}\n> 📌 {{ highlight.markText | trim }}\n\n{% endif %}\n{% endfor %}\n{% endfor %}\n\n{% if bookReview.bookReviews %}\n{% for bookReview in bookReview.bookReviews %}\n# 书评\n\n{{ bookReview.mdContent }}\n{{ bookReview.createTime }}\n{% endfor %}\n{% endif %}\n",
+      "trimBlocks": true,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "builtin_official",
+      "name": "微信官方笔记主题",
+      "description": "详细的元数据信息，适合生成书籍笔记",
+      "template": "---\nisbn: {{ metaData.isbn }}\nlastReadDate: {{ metaData.lastReadDate }}\n---\n《{{ metaData.title }}》\n{{ metaData.author }}\n{{ metaData.totalWords }}字\n{{ metaData.noteCount }}个笔记\n\n{% if bookReview.bookReviews %}\n{% for bookReview in bookReview.bookReviews %}\n◆ 点评\n{{ bookReview.createTime }}\n{{ bookReview.mdContent }}\n{% endfor %}\n{% endif %}\n\n{% for chapter in chapterHighlights %}\n{% if chapter.level == 1 %}\n## ◆ {{ chapter.chapterTitle }}\n{% elif chapter.level == 2 %}\n### ◆ {{ chapter.chapterTitle }}\n{% elif chapter.level == 3 %}\n#### ◆ {{ chapter.chapterTitle }}\n{% endif %}\n{% for highlight in chapter.highlights %}\n{% set rangeParts = highlight.range | split(\"-\") %}\n{% set deeplink = \"weread://bestbookmark?bookId=\" + metaData.bookId + \"&chapterUid=\" + highlight.chapterUid + \"&rangeStart=\" + rangeParts[0] + \"&rangeEnd=\" + rangeParts[1] %}\n{% if highlight.reviewContent %}\n\n{{ highlight.createTime }} 发表想法\n{{ highlight.reviewContent }}\n\n{% if syncPopularHighlightsToggle and highlight.isPopular %}\n> [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n> 🔥 {{ highlight.popularCount }} 人共读\n{% else %}\n> [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n{% endif %}\n\n{% else %}\n\n{% if syncPopularHighlightsToggle and highlight.isPopular %}\n> [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n> 🔥 {{ highlight.popularCount }} 人共读\n{% else %}\n> [{{ highlight.markText | trim }}](<{{ deeplink }}>) ^{{ highlight.bookmarkId }}\n{% endif %}\n\n{% endif %}\n{% endfor %}\n{% endfor %}\n",
+      "trimBlocks": true,
+      "isBuiltIn": true,
+      "isReadOnly": true,
+      "source": "builtin"
+    },
+    {
+      "id": "legacy_template",
+      "name": "旧模板",
+      "description": "从旧版本迁移的模板，可复制后自定义",
+      "template": "",
+      "trimBlocks": false,
+      "isBuiltIn": false,
+      "isReadOnly": true,
+      "source": "legacy"
+    }
+  ],
+  "activeThemeId": "legacy_template",
+  "wereadApiKey": "wrk-0DgA0_ksR9eqKCBkuac8PwAA",
+  "apiKeyValid": true,
+  "readingStatsLocation": "/",
+  "statsStartYear": 0,
+  "popularHighlightsCacheTtl": 7
 }
